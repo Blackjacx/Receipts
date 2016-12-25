@@ -2,11 +2,17 @@
 
 ## Zutaten
 2 lange Salatgurken
+
 2 mittelgroße Zwiebeln
+
 3 Esslöffel Zucker
+
 2 Teelöffel Salz
+
 2 Teelöffel Senfkörner
+
 2 Teelöffel Dill
+
 4 Esslöffel Essig 10%
 
 ## Zubereitung

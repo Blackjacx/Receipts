@@ -2,11 +2,17 @@
 
 ## Zutaten
 1 mittelgroßer Apfel
+
 3 Beutel oder 3 Esslöffel aromatisierter Früchtetee mit Apfel-/Zimtaroma
+
 1/4 Liter Apfelsaft
+
 1 Zimtstange
+
 2 Stück Sternanis
+
 4 Gewürznelken
+
 4 Esslöffel Ahornsirup
 
 ## Zubereitung

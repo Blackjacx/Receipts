@@ -2,14 +2,23 @@
 
 ## Zutaten
 125 g Margarine
+
 50 g Butter
+
 125 g Zucker
+
 200 g Mehl
+
 750 g Äpfel
+
 3 Esslöffel Milch
+
 2 Teelöffel Backpulver
+
 1 Päckchen geriebene Zitronenschale
+
 1 Päckchen Vanillezucker
+
 3 Eier
 
 ## Zubereitung

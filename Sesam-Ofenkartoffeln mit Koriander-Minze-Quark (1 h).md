@@ -2,15 +2,25 @@
 
 ## Zutaten (4 Portionen)
 1 kg junge Kartoffeln, festkochend
+
 2 Esslöffel Olivenöl
+
 1 Teelöffel grobes Meersalz
+
 2 Esslöffel Sesam
+
 500 g Quark 20 % Fett
+
 75 g saure Sahne 10 % Fett
+
 1/2 Bund Koriander
+
 1/2 Bund Minze
+
 2 Lauchzwiebeln
+
 2 Esslöffel kohlensäurehaltiges Mineralwasser
+
 Salz, Pfeffer aus der Mühle
 
 ## Zubereitung
