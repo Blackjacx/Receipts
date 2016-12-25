@@ -2,19 +2,17 @@
 
 ## Zutaten
 
-1 Bund Suppengrün (3 Möhren, 1 Stück Sellerieknolle, 1 kleiner Porree, Petersilie)
+1 Bund 			Suppengrün (3 Möhren, 1 Stück Sellerieknolle, 1 kleiner Porree, Petersilie)
 
-1/2 kg Suppenhuhn
+1/2 kg 			Suppenhuhn
 
-2 mittelgroße
+2 mittelgroße	Zwiebeln
 
-2 Zwiebeln
+2 				Lorbeerblätter
 
-2 Lorbeerblätter
+3 Körner 		Piment
 
-3 Körner Piment
-
-125 g Suppennudeln
+125 g 			Suppennudeln
 
 Salz
 

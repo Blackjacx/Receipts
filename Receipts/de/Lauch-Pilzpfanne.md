@@ -1,17 +1,17 @@
 # Lauch-Pilzpfanne
 
 ## Zutaten
-300 g altbackenes Baguette oder Chiabatta
+300 g 		altbackenes Baguette oder Chiabatta
 
-1 Stange Porree
+1 Stange	Porree
 
-300 g Shitake
+300 g 		Shitake
 
-300 g Egerlinge
+300 g 		Egerlinge
 
-6 Zweige Rosmarin
+6 Zweige 	Rosmarin
 
-2 knoblauchzehen
+2 			Knoblauchzehen
 
 6 Esslöffel Olivenöl
 
@@ -30,8 +30,8 @@ Das Baguette in Scheiben schneiden und in eine große Schüssel legen. Rosmarin 
 
 Übriges Öl mit dem Essig, Zitronensaft, Zucker, Salz und Pfeffer vermischen. Das Gemüse und das Dressing zum Brot geben, locker durchmengen und mindestens 30 min ziehen lassen. Anschließend abschmecken und mit Rosmarin garniert servieren.
 
-## Tip 
+## Tip
 Wer das Brot etwas kross mag, kann die Scheiben auch im Backofen unter dem Grill 2-3 min rösten.
 
-## Dauer 
+## Dauer
 1 h

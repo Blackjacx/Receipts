@@ -1,19 +1,19 @@
 # Kartoffelsuppe
 
 ## Zutaten
-1 kg mehlig kochende Kartoffeln
+1 kg 		mehlig kochende Kartoffeln
 
-2 Liter Gemüsebrühe
+2 Liter 	Gemüsebrühe
 
-500 g Möhren
+500 g 		Möhren
 
-1/4 Knolle Sellerie
+1/4 Knolle	Sellerie
 
-1 Zwiebel
+1 			Zwiebel
 
-125 g Schinkenspeck, gewürfelt
+125 g 		Schinkenspeck, gewürfelt
 
-1/2 Bund Lauchzwiebeln
+1/2 Bund 	Lauchzwiebeln
 
 2 Esslöffel Öl oder Margarine
  

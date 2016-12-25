@@ -1,27 +1,29 @@
 # Sesam-Ofenkartoffeln mit Koriander-Minze-Quark
 
 ## Zutaten (4 Portionen)
-1 kg junge Kartoffeln, festkochend
+1 kg 			junge Kartoffeln, festkochend
 
-2 Esslöffel Olivenöl
+2 Esslöffel 	Olivenöl
 
-1 Teelöffel grobes Meersalz
+1 Teelöffel 	grobes Meersalz
 
-2 Esslöffel Sesam
+2 Esslöffel 	Sesam
 
-500 g Quark 20 % Fett
+500 g 			Quark 20 % Fett
 
-75 g saure Sahne 10 % Fett
+75 g 			saure Sahne 10 % Fett
 
-1/2 Bund Koriander
+1/2 Bund 		Koriander
 
-1/2 Bund Minze
+1/2 Bund 		Minze
 
-2 Lauchzwiebeln
+2 				Lauchzwiebeln
 
-2 Esslöffel kohlensäurehaltiges Mineralwasser
+2 Esslöffel 	kohlensäurehaltiges Mineralwasser
 
-Salz, Pfeffer aus der Mühle
+Salz
+
+Pfeffer aus der Mühle
 
 ## Zubereitung
 Kartoffeln gründlich waschen, längs halbieren und trocken tupfen. Olivenöl und Salz in einer Schüssel mischen, die Kartoffeln darin wenden. Auf einem mit Backpapier belegten Blech verteilen, im vorgeheizten Ofen bei 180°C je nach Größe ca. 30 min backen, mit Sesam bestreuen und in weiteren 15 min fertig garen.

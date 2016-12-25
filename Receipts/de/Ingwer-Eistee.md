@@ -1,17 +1,17 @@
 # Ingwer-Eistee
 
 ## Zutaten
-2  Zitronen
+2  			Zitronen
 
-1 Stück Ingwer, daumengroß
+1 Stück 	Ingwer, daumengroß
 
-5 Beutel oder 5 Esslöffel schwarzen Tee
+5 Beutel 	schwarzen Tee
 
-3 EL Zucker
+3 EL 		Zucker
 
-1 Stängel Minze
+1 Stängel 	Minze
 
-1 Liter Wasser
+1 Liter 	Wasser
 
 ## Zubereitung
 Tee kochen und 3 - 5 Minuten ziehen lassen und Beutel herausnehmen. Den Tee mit dem Zucker süßen.

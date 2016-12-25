@@ -1,9 +1,9 @@
 # Dosenhähnchen
 
 ## Zutaten
-1 Hähnchen
+1 		Hähnchen
 
-1 Dose Bier
+1 Dose 	Bier
 
 Petersilie
 

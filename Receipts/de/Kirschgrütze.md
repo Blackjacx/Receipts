@@ -1,14 +1,21 @@
 # Kirschgrütze
 
 ## Zutaten
-1 Glas Schattenmorellen
+1 Glas 		Schattenmorellen
+
 2 Esslöffel Zucker
-250 ml Kirschsaft
-1 Päckchen Geliermittel für Fruchtzubereitungen (ohne Kochen)
+
+250 ml 		Kirschsaft
+
+1 Päckchen 	Geliermittel für Fruchtzubereitungen (ohne Kochen)
+
 4 Esslöffel Zitronensaft
-250 ml geschlagene Sahne
+
+250 ml 		geschlagene Sahne
+
 4 Esslöffel Schokoraspel
-4 Waffelröllchen
+
+4 			Waffelröllchen
 
 ## Zubreitung
 Den Zucker in etwas Kirschsaft und mit dem Geliermittel, dem Zitronen- und dem restlichen Kirschsaft verrühren. Die Kirschen vorsichtig unterheben und in Glasschälchen füllen.
