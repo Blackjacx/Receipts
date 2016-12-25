@@ -1,7 +1,7 @@
 # Lauch-Pilzpfanne (1 h)
 ## Zutaten
-300 g altbackenes Baguette oder Chiabatta\<\br\>
-1 Stange Porree\n
+300 g altbackenes Baguette oder Chiabatta\<br/\>
+1 Stange Porree
 300 g Shitake
 300 g Egerlinge
 6 Zweige Rosmarin
