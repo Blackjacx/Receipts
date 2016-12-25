@@ -3,9 +3,7 @@
 ## Zutaten
 
 5 Äpfel
-
-1 EL Zucker
-
+2 EL Zucker
 Wasser
 
 ## Zubereitung
