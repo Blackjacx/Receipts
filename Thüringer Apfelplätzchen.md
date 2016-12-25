@@ -1,4 +1,4 @@
-# Thüringer Apfelplätzchen (1 h)
+# Thüringer Apfelplätzchen
 
 ## Zutaten
 100 g Margarine
@@ -38,3 +38,6 @@ Mit zwei Teelöffeln Häufchen auf ein mit Backpapier belegtes Backblech setzen.
 Mit Puderzucker bestreuen und am besten warm servieren.
 
 Die Plätzchen werden nicht wie typische Plätzchen hart und krümelig, sondern eher kuchenartig weich.
+
+## Dauer
+1 h

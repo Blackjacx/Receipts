@@ -1,4 +1,4 @@
-# Hühnersuppe (1 h 45 min)
+# Hühnersuppe
 
 ## Zutaten
 
@@ -35,3 +35,6 @@ Das gekochte Gemüse, Lorbeerblatt und die Pimentkörner werden nicht mehr verwe
 Das Fleisch und die Brühe kommen nun mitsamt dem geschnittenen Gemüse sowie den Nudeln in den Topf. Noch einmal 10-15 Minuten kochen. Mit Salz und Pfeffer abschmecken, Petersilie hinzugeben.
 
 Ohne das Gemüse erhält man eine sehr leckere, klare Hühnerbrühe, welche mit Nudeln, Reis oder einfach pur verzehrt werden kann.
+
+## Dauer
+1 h 45 min
