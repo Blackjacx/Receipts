@@ -1,17 +1,16 @@
 # Lauch-Pilzpfanne (1 h)
-
 ## Zutaten
-• 300 g altbackenes Baguette oder Chiabatta
-• 1 Stange Porree
-• 300 g Shitake
-• 300 g Egerlinge
-• 6 Zweige Rosmarin
-• 2 knoblauchzehen
-• 6 Esslöffel Olivenöl
-• 6 Esslöffel weißer Balsamico
-• 2 Esslöffel Zitronensaft
-• Salz
-• Pfeffer aus der Mühle
+300 g altbackenes Baguette oder Chiabatta\<\br\>
+1 Stange Porree\n
+300 g Shitake
+300 g Egerlinge
+6 Zweige Rosmarin
+2 knoblauchzehen
+6 Esslöffel Olivenöl
+6 Esslöffel weißer Balsamico
+2 Esslöffel Zitronensaft
+Salz
+Pfeffer aus der Mühle
 
 ## Zubereitung 
 Das Baguette in Scheiben schneiden und in eine große Schüssel legen. Rosmarin abbrausen, trocken schütteln, von zwei Zweigen die Nadeln abstreifen und fein hacken. Den Lauch längs halbieren, waschen, putzen und in dünne Scheiben schneiden. Die Shitake und Egerlinge putzen, in Scheiben schneiden, den Knoblauch abziehen und fein hacken. 
