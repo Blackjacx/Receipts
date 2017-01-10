@@ -5,27 +5,28 @@
 > asdfasdfasdf
 > asdasdfasfd
 > sadfasfasf
-500 g       Kartoffeln (mehlig kochend)
-300 g       Knollensellerie
-800 g       Rehrücken
-8-10        Thymianzweige
-250 g       Brombeeren
-2-3         Schalotten
-500-700 g   Steinpilze
-1 EL        Koriandersamen
-100 ml      Milch
-100 g       Butter
-50 g        Schlagsahne
-70-100 ml   alter Weinbrand
-200 ml      Portwein
-200 ml      Wildfond
-1-2 EL      Brombeergelee
-50 g        Zartbitterschokolade
-10 g        Nussnougat
- 			Salz
-			Pfeffer
-			Pflanzenöl
-			Rosmarinzweige
+	500 g       Kartoffeln (mehlig kochend)
+	300 g       Knollensellerie
+	800 g       Rehrücken
+	8-10        Thymianzweige
+	250 g       Brombeeren
+	2-3         Schalotten
+	500-700 g   Steinpilze
+	1 EL        Koriandersamen
+	100 ml      Milch
+	100 g       Butter
+	50 g        Schlagsahne
+	70-100 ml   alter Weinbrand
+	200 ml      Portwein
+	200 ml      Wildfond
+	1-2 EL      Brombeergelee
+	50 g        Zartbitterschokolade
+	10 g        Nussnougat
+	 			Salz
+				Pfeffer
+				Pflanzenöl
+				Rosmarinzweige
+
 ## Zubereitung
 Kartoffeln und Sellerie Schälen, waschen, in grobe Stücke schneiden und in einem Topf mit Salzwasser in ca. 20 min. weich kochen. Abgießen und ausdampfen lassen.
 
