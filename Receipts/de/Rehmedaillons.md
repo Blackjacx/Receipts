@@ -1,8 +1,8 @@
 # Rehmedaillons
 
 ## Zutaten
-```bash
-`500 g       Kartoffeln (mehlig kochend)
+``bash
+500 g       Kartoffeln (mehlig kochend)
 300 g       Knollensellerie
 800 g       Rehrücken
 8-10        Thymianzweige
@@ -23,8 +23,8 @@ Salz
 Pfeffer
 Pflanzenöl
 Rosmarinzweige
-```
-`
+``
+
 ## Zubereitung
 Kartoffeln und Sellerie Schälen, waschen, in grobe Stücke schneiden und in einem Topf mit Salzwasser in ca. 20 min. weich kochen. Abgießen und ausdampfen lassen.
 
