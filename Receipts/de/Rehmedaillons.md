@@ -1,10 +1,7 @@
 # Rehmedaillons
 
 ## Zutaten
-> asdfasdf
-> asdfasdfasdf
-> asdasdfasfd
-> sadfasfasf
+
 	500 g       Kartoffeln (mehlig kochend)
 	300 g       Knollensellerie
 	800 g       Rehrücken
