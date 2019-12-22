@@ -1,19 +1,19 @@
 # Thüringer Apfelplätzchen
 
 ## Zutaten
-	100 g          	Margarine
-	125 g          	Zucker
-	1 Päckchen      Vanillezucker
-	2 Teelöffel   	Zitronenschale, abgeriebene
-	1 Prise        	Salz
-	2				Eier
-	250 g          	Mehl
-	1/2 Päckchen  	Backpulver
-	2 kleine       	Äpfel
-	1 cl           	Rum, oder 3 Tropfen Rum-Aroma
-	1 Messerspitze 	Zimt
-	1/2 Päckchen  	Zitronat
-	1/2 Päckchen  	Orangeat
+    100 g               Margarine
+    125 g               Zucker
+    1 Päckchen          Vanillezucker
+    2 Teelöffel         Zitronenschale, abgeriebene
+    1 Prise             Salz
+    2                   Eier
+    250 g               Mehl
+    1/2 Päckchen        Backpulver
+    2 kleine            Äpfel
+    1 cl                Rum, oder 3 Tropfen Rum-Aroma
+    1 Messerspitze      Zimt
+    1/2 Päckchen        Zitronat
+    1/2 Päckchen        Orangeat
 
 ## Zubereitung
 Margarine, Zucker, Vanillezucker, Zitronenschale und Salz verrühren.

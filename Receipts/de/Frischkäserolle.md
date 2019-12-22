@@ -1,15 +1,11 @@
 # Frischkäserolle
 
 ## Zutaten
-200 g 			Kräuterfrischkäse
-
-1 mittelgroße 	Zwiebel
-
-1 Päckchen 		Schinken (Lachs-), dünn geschnitten
-
-1 kleine 		Zucchini
-
-600 g 			Hefeteig
+    200 g           Kräuterfrischkäse
+    1 mittelgroße   Zwiebel
+    1 Päckchen      Schinken (Lachs-), dünn geschnitten
+    1 kleine        Zucchini
+    600 g           Hefeteig
 
 ## Zubereitung
 Hefeteig ausrollen. Kräuterfrischkäse dünn darauf streichen. Mit dünn geschnittenen Zwiebelringen belegen. Dünn geschnittene Lachsschinkenscheiben darauf legen. Zucchini in dünne Scheiben schneiden und quer zur Rollrichtung auflegen. 

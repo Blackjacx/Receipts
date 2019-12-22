@@ -1,23 +1,15 @@
 # Dosenhähnchen
 
 ## Zutaten
-1 		Hähnchen
-
-1 Dose 	Bier
-
-Petersilie
-
-Rosmarin
-
-Oregano
-
-Chiliflocken
-
-Salz
-
-Pfeffer
-
-Honig
+    1               Hähnchen
+    1 Dose          Bier
+                    Petersilie
+                    Rosmarin
+                    Oregano
+                    Chiliflocken
+                    Salz
+                    Pfeffer
+                    Honig
 
 ## Zubereitung
 Vorsichtig den Deckel einer Bierdose abtrennen und Petersilie, Rosmarin und Oregano ins Bier geben.

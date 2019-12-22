@@ -1,23 +1,14 @@
 # Hühnersuppe
 
 ## Zutaten
-
-1 Bund 			Suppengrün (3 Möhren, 1 Stück Sellerieknolle, 1 kleiner Porree, Petersilie)
-
-1/2 kg 			Suppenhuhn
-
-2 mittelgroße	Zwiebeln
-
-2 				Lorbeerblätter
-
-3 Körner 		Piment
-
-125 g 			Suppennudeln
-
-Salz
-
-Pfeffer
-
+    1 Bund      Suppengrün (3 Möhren, 1 Stück Sellerieknolle, 1 kleiner Porree, Petersilie)
+    1/2 kg      Suppenhuhn
+    2           mittelgroße	Zwiebeln
+    2           Lorbeerblätter
+    3 Körner    Piment
+    125 g       Suppennudeln
+                Salz
+                Pfeffer
 
 ## Zubereitung
 Zunächst werden die Innereien aus dem Huhn entfernt, falls noch nicht geschehen. Anschließend das Huhn mit kaltem Wasser waschen.
