@@ -17,8 +17,6 @@ Sechs Löffelbiskuits in eine Form legen, mit der Amaretto-Espressomischung betr
 
 Das Tiramisu mit Folie abdecken und im Kühlschrank über Nacht fest werden lassen. Vor dem Servieren mit Kakao bestäuben.
 
-
-
 ## Dauer
 15 Min. Zubereitungszeit
 8 h Wartezeit 
