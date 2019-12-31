@@ -1,22 +1,24 @@
 # Tiramisu
 
-## Zutaten für 4 Personen
+## Zutaten für 6 Personen
     2           Bananen
-    1           frisches Eigelb
-    2 EL        Zucker
-    100 g       Mascarpone
+    2           Eier
+    3 EL        Zucker
+    500 g       Mascarpone
     75 ml       Espresso
-    2 EL        Amaretto
-    12          Löffelbiskuits
-    1 EL        Kakaopulver
+    2 cl        Amaretto
+    200 g       Löffelbiskuits
+                Kakaopulver, ungesüßt
 
 ## Zubereitung
-Die babanen schälen und pürieren. Das Eigelb mit Zucker dick aufschlagen. Mascarpone und Bananenpürree unterrühren. Espresso und Amaretto mischen.
+Eigelb vom Eiweiß trennen. Eigelb, Zucker und Amaretto cremig schlagen. Mascarpone vorsichtig unterrühren. Eiweiß steif schlagen und unterrühren. Bananen pürieren ud ebenfalls unter die Creme rühren.
 
-Sechs Löffelbiskuits in eine Form legen, mit der Amaretto-Espressomischung beträufeln und die Hälfte der Mascarponecreme darüber verteilen. Das Ganze mit den restlichen 6 Löffelbiskuits wiederholen.
+Löffelbiskuits je nach Geschmack in Espresso tränken oder einpinseln.
 
-Das Tiramisu mit Folie abdecken und im Kühlschrank über Nacht fest werden lassen. Vor dem Servieren mit Kakao bestäuben.
+Eine Auflaufform mit getränkten Löffelbiskuits auslegen und die Hälfte der Mascarponecreme darüber verteilen. Nun eine weitere Schicht Löffelbiskuits und Mascarponecreme hinzufügen.
+
+Das Tiramisu mit Kakao bestäuben, mit Folie abdecken und über Nacht im Kühlschrank fest werden lassen. Vor dem Servieren erneut mit Kakao bestäuben.
 
 ## Dauer
-15 Min. Zubereitungszeit
+15 Min. Zubereitungszeit<br />
 8 h Wartezeit 
