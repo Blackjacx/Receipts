@@ -1,6 +1,6 @@
-# Tiramisu
+# Salatbrühe
 
-## Zutaten für 6 Personen
+## Zutaten
     1 EL        Zucker
     3 EL        Wasser
     1 TL        Salz
