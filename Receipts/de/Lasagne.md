@@ -38,7 +38,6 @@ Die letzte Schicht sollte die Béchamelsauce bilden und dick mit geriebenem Käs
 Die Lasagne kann man auch gut einen Tag vorher vorbereiten und im Kühlschrank ziehen lassen.
 
 ## Dauer
-Arbeitszeit: 30 min
-
+Arbeitszeit: 30 min <br />
 Kochzeit: 1h
 

@@ -30,7 +30,6 @@ Jetzt das letzte Ei mit dem zur Seite gestellten Eiweiß verquirlen und in drei 
 In einer tiefen Pfanne reichlich Öl oder Butter erhitzen und die Kroketten portionsweise darin frittieren. Auf Küchenpapier kurz abtropfen lassen und sehr heiß servieren.
 
 ## Dauer
-Arbeitszeit: 45 min
-
+Arbeitszeit: 45 min <br />
 Ruhezeit: 1/2 Tag
 
