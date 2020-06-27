@@ -31,5 +31,6 @@ In einer tiefen Pfanne reichlich Öl oder Butter erhitzen und die Kroketten port
 
 ## Dauer
 Arbeitszeit: 45 min
+
 Ruhezeit: 1/2 Tag
 

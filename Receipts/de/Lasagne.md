@@ -39,5 +39,6 @@ Die Lasagne kann man auch gut einen Tag vorher vorbereiten und im Kühlschrank z
 
 ## Dauer
 Arbeitszeit: 30 min
+
 Kochzeit: 1h
 
