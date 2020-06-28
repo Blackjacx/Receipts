@@ -25,7 +25,7 @@
 
 ## Zubereitung
 ### Bolognesesauce
-Zwiebeln in kleine Würfel und Knoblauch fein hacken. Olivenöl im Topf erhitzen ud das Hackfleich darin anbraten. Gehackte Zwiebeln, Petersilie, Knoblauch, Lorbeerblätter und Tomatenmark dazugeben und kurz mitbraten. Dann mit den gestückelten Tomaten aufgießen, salzen und pfeffern. Ca. 30 Minuten mit leicht geöffnetem Deckel (ohne Deckel spritzt das Ganze sehr) einkochen lassen.
+Zwiebeln in kleine Würfel und Knoblauch fein hacken. Olivenöl im Topf erhitzen und das Hackfleich darin anbraten. Gehackte Zwiebeln, Petersilie, Knoblauch, Lorbeerblätter und Tomatenmark dazugeben und kurz mitbraten. Dann mit den gestückelten Tomaten aufgießen, salzen und pfeffern. Ca. 30 Minuten mit leicht geöffnetem Deckel (ohne Deckel spritzt das Ganze sehr) einkochen lassen.
 
 ### Béchamelsauce
 Butter in einem kleinen Topf oder einer Kasserolle schmelzen. Mehl mit einem Schneebesen langsam einrühren und das Ganze goldgelb anschwitzen. Milch dazugeben, glattrühren und unter ständigem Rühren auf mittler Hitze 10 Minuten kochen. Mit Salz, Pfeffer, Zitronensaft und etwas Muskatnuss abschmecken.
