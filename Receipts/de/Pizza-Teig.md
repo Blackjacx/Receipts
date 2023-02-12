@@ -5,7 +5,7 @@
     3 EL            Olivenöl
     1/4             Hefewürfel / Alternativ: 1 Pckg. Trockenhefe
     150 g           Mehl Typ 0
-    1.5 TL          Salz
+    1/2 TL          Salz
     1 Prs.          Zucker
 
 ### Belag  
