@@ -20,15 +20,15 @@
     300 g           Joghurt
     
 ## Zubereitung
-Die Zutaten für den Teig in eine Schüssel geben, rasch zusammenkneten und zur Seite stellen. 
+Die Zutaten für den Teig in eine Schüssel geben, zusammenkneten und in einer gefetteten 26er Springform auslegen. Etwa 2 - 3 cm am Rand hochziehen.
 
 Für die Füllung Margarine, Zucker, Vanillezucker, Puddingpulver und Eier in einer Schüssel verrühren. Dann den Quark und Joghurt untermischen. 
 
 Den Backofen auf 180 °C Ober-/Unterhitze vorheizen.
 
-Den Teig in einer gefetteten 26er Springform auslegen, etwa 2 - 3 cm am Rand hochziehen. Nun die Füllung in die Form geben, glatt streichen und im heißen Backofen 1 Stunde backen.
+Nun die Füllung in die Form geben, glatt streichen und im heißen Backofen 45 min backen.
 
 Achtung: Den Kuchen erst nach dem völligen Erkalten aus der Form nehmen, da unmittelbar nach dem Herausnehmen aus dem Backofen die Konsistenz der Quarkmasse noch zu weich ist.
 
 ## Dauer
-Arbeitszeit ca. 30 Minuten und Koch-/Backzeit ca. 1 Stunde
+Arbeitszeit ca. 30 min und Koch-/Backzeit ca. 45 min
