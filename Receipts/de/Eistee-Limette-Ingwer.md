@@ -1,18 +1,17 @@
 # Eistee Limette Ingwer
 
 ## Zutaten
-    10          Bio Limetten
-    150 g       Ingwer
-    1.5 l       Wasser
-    200 g       Zucker, braun
-    15          Minzstiele
+    3           Bio Limetten
+    5           Teebeutel Grüntee
+    1 Stk.      Ingwer, daumengroß
+    4.5 l       Wasser (5 l Topf)
+    2 El        Zucker, braun
+    5           Minzstiele
 
 ## Zubereitung
-5 Limetten waschen, trockenreiben und mit dem Sparschäler dünn schälen. Frischen Ingwer schälen und in dünne Scheiben schneiden.
+5 Limetten waschen, trockenreiben und mit dem Sparschäler dünn schälen. Frischen Ingwer schälen und in dünne Scheiben schneiden. Wasser mit braunem Zucker, Limettenschale 5 Minuten bei mittlerer Hitze kochen lassen. Vom Herd nehmen und Teebeutel 5-10 Minuten darin ziehen lassen, danach Teebeutel entfernen. Minzestiele mit Blättern grob hacken und zum Limetten/Ingwer Tee geben. 3-4 Stunden ziehen und abkühlen lassen. Inzwischen die geschälten Limetten auspressen. Limettensaft zugeben und das Ganze nochmal eine Stunde ziehen lassen. Nun alles durch ein Sieb gießen und in heiß ausgespülte Flaschen geben. 
 
-Wasser mit braunem Zucker, Limettenschale und Ingwer 5 Minuten bei mittlerer Hitze kochen lassen. 15 Minzestiele mit Blättern grob hacken, zum Limetten-Ingwer-Sud geben und vom Herd nehmen. 3-4 Stunden ziehen und abkühlen lassen. Inzwischen die geschälten Limetten und weitere 5 Limetten auspressen (200-220 ml Saft).
-
-Den Ingwertee durch ein Sieb gießen und den Limettensaft zugeben. Gläser zur Hälfte mit Eiswürfeln füllen und mit Limetten-Ingwer-Tee auffüllen.
+Gläser zur Hälfte mit Eiswürfeln füllen und mit Limetten-Ingwer-Tee auffüllen.
 
 ## Dauer
 30 Min. Zubereitung<br />
