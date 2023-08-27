@@ -5,7 +5,7 @@
     250 g           Torttellini
      50 g           Cocktailtomaten
       1 Becher      Mozzarellakugeln
-      2 EL          Olivenöl
+      1 EL          Olivenöl
       1 Hand voll   Basilikum
      50 g           geriebenen Parmesan
                     Jodsalz
