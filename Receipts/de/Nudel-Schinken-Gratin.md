@@ -5,7 +5,6 @@
     140 g           Schinken
     500 ml          Wasser
     500 ml          Sahne (Rama zum kochen / Milch geht auch)
-    1 EL            Tomatenmark
     1 EL            Mehl
     1-2 TL          Salz
     1/2 TL          Pfeffer oder mehr nach Geschmack
