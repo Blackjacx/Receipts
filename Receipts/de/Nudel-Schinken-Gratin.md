@@ -18,7 +18,7 @@
 Nudeln ungekocht in eine ungefettete Auflaufform geben. Kochschinken klein schneiden (Streifen oder Quadrate) und unter die Nudeln mischen. 
 
 ### Soße
-Knoblauch und Zwiebel klein schneiden und mit anderen Zutaten, außer dem Käse, in einen kalten Topf geben und mit einem Schneebesen verrühren. Das ganze aufkochen und für 2-3 Minuten köcheln lassen. Dann alles über die Nudeln geben und für 15 Minuten in den Ofen bei ca. 180 Grad Celsius (Umluft). Nun den Käse darüber verteilen und nochmal für 15 Minuten in die Röhre. 
+Knoblauch und Zwiebel klein schneiden und mit den anderen Zutaten, außer dem Käse, in einem kalten Topf mit einem Schneebesen verrühren. Das Ganze aufkochen und für 2-3 Minuten köcheln lassen. Dann alles über die Nudeln geben und für 15 Minuten im Ofen bei ca. 180 Grad Celsius (Umluft) backen. Nun den Käse darüber verteilen und nochmal für 15 Minuten in den Ofen. 
 
 Vorsicht heiß! Und guten Appetit 🙃
 
