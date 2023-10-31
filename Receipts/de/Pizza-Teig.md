@@ -2,9 +2,10 @@
 
 ## Zutaten
 ### Teig
-    3 EL            Olivenöl
-    1/4             Hefewürfel / Alternativ: 1 Pckg. Trockenhefe
-    150 g           Mehl Typ 0
+    150 ml          Wasser  
+    2 EL            Olivenöl
+    1/2             Hefewürfel / Alternativ: Trockenhefe
+    300 g           Mehl Typ 0
     1/2 TL          Salz
     1 Prs.          Zucker
 
@@ -16,9 +17,9 @@
                     Oregano und Thymian
 
 ## Zubereitung
-- 100 ml lauwarmes Wasser mit Zucker mischen und Hefe darin auflösen - 15 Minuten gehen lassen
+- Wasser erwärmen, mit Zucker mischen und Hefe darin auflösen - 10 Minuten gehen lassen
 - Mehl, Hefewasser, Öl und Salz mischen
-- Kneten bis sich Teig von Händen und Schüssel löst, dabei nach Bedarf Mehl hinzugeben. Am besten löst man den Teig mit einem Silikonspachtel von Schüssel und Händen.
+- Min. 10 Minuten kneten bis sich der Teig von Händen und Schüssel löst, dabei nach Bedarf Mehl hinzugeben. Am besten löst man den Teig mit einem Silikonspachtel von Schüssel und Händen.
 - Den Teig nun 1h (Mit einem Leinentuch abgedeckt an einem warmen Ort) - 1 Tag (abgedeckt im Kühlschrank) gehen lassen (je länger desto besser)
 - Nach dem Gehen dünn auf den Ofenrost, belegt mit Backpapier "ausrollen" und nochmal ca 30 min. gehen lassen, so kommt Luft in den Teig und er wird "fluffig".
 - Passierte Tomaten, Tomatenmark, Knoblauchzehe(n) und sonstige Gewürze je nach Belieben mixen und auf dem Teig verteilen. Hier ist wichtig, dass die Mischung genug Feuchtigkeit hat, damit der Teig später beim Backen nicht austrocknet. 
