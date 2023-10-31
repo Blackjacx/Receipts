@@ -20,7 +20,8 @@
 - Wasser erwärmen, mit Zucker mischen und Hefe darin auflösen - 10 Minuten gehen lassen
 - Mehl, Hefewasser, Öl und Salz mischen
 - ca. 10 Minuten kneten bis sich der Teig von Händen und Schüssel löst, dabei nach Bedarf Mehl hinzugeben. Am besten löst man den Teig mit einem Silikonspachtel von Schüssel und Händen.
-- Den Teig nun 1h (Mit einem Leinentuch abgedeckt an einem warmen Ort) - 1 Tag (abgedeckt im Kühlschrank) gehen lassen (je länger desto besser)
+- Ofen auf 50 °C vorheizen und einige Sekunden offen stehen lassen
+- Den Teig nun 1h, mit einem Leinentuch abgedeckt, in den Ofen stellen. Alternativ: 1 Tag, abgedeckt im Kühlschrank, gehen lassen.
 - Nach dem Gehen dünn auf den Ofenrost, belegt mit Backpapier "ausrollen" und nochmal ca 30 min. gehen lassen, so kommt Luft in den Teig und er wird "fluffig".
 - Passierte Tomaten, Tomatenmark, Knoblauchzehe(n) und sonstige Gewürze je nach Belieben mixen und auf dem Teig verteilen. Hier ist wichtig, dass die Mischung genug Feuchtigkeit hat, damit der Teig später beim Backen nicht austrocknet. 
 - Pizza nach Belieben belegen
