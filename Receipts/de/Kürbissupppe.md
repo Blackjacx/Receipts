@@ -3,15 +3,15 @@
 ## Zutaten
     1 kg            Hokkaido-, Butternut- oder anderen Kürbis
     1 l             Wasser
-    3               mittelgroße Möhren
+    3               Möhren
     3               Kartoffeln
-    2               Zwiebeln
+    4               Zwiebeln
     4 Zehen         Knoblauch
     1 Stück         Ingwer
     250 ml          Kokosmilch
-                    Suppengemüse
+                    Suppengemüse (kein Lauch)
                     Wintergemüse (Pastinake, Rote Beete, …)
-                    Pfeffer, Thacurry, Kreuzkümmel, Paprika Edelsüß
+                    Pfeffer, Thaicurry, Kreuzkümmel, Paprika Edelsüß
                     Majoran nach Bedarf
 
 ## Zubereitung
