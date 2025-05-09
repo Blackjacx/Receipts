@@ -13,8 +13,8 @@
 ### Topping
     100 g           Butter
     100 g           Zucker
-    100 g           Mandeln, gehackt ODER
-    150 g           Kokosraspeln (oder beides)
+    100 g           Mandeln, gehackt
+    100 g           Kokosraspeln
     1 EL            Honig
     2 EL            Milch
     
