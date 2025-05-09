@@ -2,11 +2,11 @@
 
 ## Zutaten
 ### Teig
-    125 g           Butter
-    125 g           Zucker
-    200 g           Mehl
-    2 kl. TL        Backpulver
-    2-3             Eier
+    200 g           Butter
+    200 g           Zucker
+    375 g           Mehl
+    3 kl. TL        Backpulver
+    3               Eier
     kl. Päckchen    Zitronenschale
     1 Prs.          Salz
     
