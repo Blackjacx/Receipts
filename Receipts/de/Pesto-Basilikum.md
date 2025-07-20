@@ -1,18 +1,25 @@
-# Pesto Basilikum
+# Pesto Genovese
 
 ## Zutaten
+
     1 Bund      Basilikum
-    1 1/2 EL    Pinienkerne
+    2 EL        Pinien, oder Sonnenblumenkerne
     3 EL        Parmesan, frisch gerieben
-    1/2 EL      Balsamico, dunkler
-    1 Zehe      Knoblauch
-    1 Prise     Pfeffer
-    100 ml      Tomatenmark
-    100 ml      Gemüsebrühe
-                Meersalz und Pfeffer auf der Mühle
+    1/2 EL      Balsamico, hell
+    100 ml      Olivenöl
+    3 Zehen     Knoblauch
+    1/2 TL      Salz
 
 ## Zubereitung
-Einfach alles zusammen in einen Mixer geben oder mit einem Zauberstab zu einer cremigen Masse pürieren. 
+
+Pinienkerne anrösten so weit wie möglich aber nicht schwarz, danach abkühlen lassen.
+
+Basilikumblätter von den Stängeln zupfen und die Stängel entsorgen.
+
+Nun alles im Mörser zerkleinern und zum Schluss durch tropfweise Hinzugabe des Olivenöls zu einer cremigen Masse verarbeiten.
+
+Zum Schluss mit Salz und Pfeffer abschmecken.
 
 ## Dauer
+
 10 min
