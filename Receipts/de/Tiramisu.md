@@ -11,7 +11,7 @@
                 Kakaopulver, ungesüßt
 
 ## Zubereitung
-Eigelb vom Eiweiß trennen. Eigelb, Zucker und Amaretto cremig schlagen. Mascarpone vorsichtig unterrühren. Eiweiß steif schlagen und unterrühren. Bananen pürieren ud ebenfalls unter die Creme rühren.
+Eigelb vom Eiweiß trennen. Eigelb, Zucker und Amaretto cremig schlagen. Mascarpone vorsichtig unterrühren. Eiweiß steif schlagen und unterrühren. Bananen pürieren und ebenfalls unter die Creme rühren.
 
 Löffelbiskuits je nach Geschmack in Espresso tränken oder einpinseln.
 

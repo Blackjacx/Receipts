@@ -21,7 +21,7 @@ Den Schinken in sehr feine Würfelchen schneiden.
 
 Ein Ei aufschlagen und Eiweiß und Eigelb trennen. Das Eiweiß für später zur Seite stellen. Den Schinken mit dem Eigelb plus einem weiteren Ei gut vermischen.
 
-Butter in einem kleinen Topf oder einer Kasserolle schmelzen. Mehl mit einem Schneebesen langsam einrühren und das Ganze goldgelb anschwitzen. Milch dazugeben, glattrühren und kurz aufkochen lassen. Dann unter ständigem Rühren auf mittler Hitze 10 Minuten kochen. Schinken, Zwiebeln hinzugeben und nocheinmal 5 Minuten unter ständigem Rühren mitkochen. Mit Salz, Pfeffer, Zitronensaft und etwas Muskatnuss abschmecken.
+Butter in einem kleinen Topf oder einer Kasserolle schmelzen. Mehl mit einem Schneebesen langsam einrühren und das Ganze goldgelb anschwitzen. Milch dazugeben, glattrühren und kurz aufkochen lassen. Dann unter ständigem Rühren auf mittlerer Hitze 10 Minuten kochen. Schinken, Zwiebeln hinzugeben und nocheinmal 5 Minuten unter ständigem Rühren mitkochen. Mit Salz, Pfeffer, Zitronensaft und etwas Muskatnuss abschmecken.
 
 Die Sauße vom Herd nehmen und auf einem großen, flachen Teller verteilen (idealerweise ein Pizzateller). Das Ganze abkühlen lassen, dann mit Frischhaltefolie abdecken und einen halben Tag in den Kühlschrank stellen. 
 

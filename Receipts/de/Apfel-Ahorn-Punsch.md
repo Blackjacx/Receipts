@@ -10,7 +10,7 @@
 	4 Esslöffel         Ahornsirup
 
 ## Zubereitung
-Apfel waschen und mitsamt der Schale in ganz dünne Scheiben schneiden. Den Früchtetee, 1/2 Liter Wasser, Apfelsaft, Gewürze und Apfelscheiben in einem Topf erhitzen, 10 min bei kleiner Hitze ziehen lassen. Ahornsirup unterrührenund den heißen Punsch in Gläser füllen.
+Apfel waschen und mitsamt der Schale in ganz dünne Scheiben schneiden. Den Früchtetee, 1/2 Liter Wasser, Apfelsaft, Gewürze und Apfelscheiben in einem Topf erhitzen, 10 min bei kleiner Hitze ziehen lassen. Ahornsirup unterrühren und den heißen Punsch in Gläser füllen.
 
 ## Dauer
 15 min

@@ -1,6 +1,6 @@
 # Hähnchen-Sandwich
 
-## Zutaten für 2 Portion
+## Zutaten für 2 Portionen
 
       6 Scheiben    Vollkornbrot
       2             Eier, gekocht

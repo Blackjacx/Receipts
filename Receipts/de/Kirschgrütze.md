@@ -10,7 +10,7 @@
     4 Esslöffel     Schokoraspel
     4               Waffelröllchen
 
-## Zubreitung
+## Zubereitung
 Den Zucker in etwas Kirschsaft und mit dem Geliermittel, dem Zitronen- und dem restlichen Kirschsaft verrühren. Die Kirschen vorsichtig unterheben und in Glasschälchen füllen.
 
 Die Grütze gut durchkühlen lassen und üppig mit der geschlagenen Sahne, den Schokoraspeln und den Waffelröllchen garnieren.

@@ -53,6 +53,6 @@ Backzeit: 45 Min.
 
 #### Schwierig
 
-Vorbereitungs-/RuheZeit: 20h
+Vorbereitungs-/Ruhezeit: 20h
 Backzeit: 45 Min.
 

@@ -46,7 +46,7 @@ Die abgekühlte, aber noch warme Masse auf den Teig streichen und bei etwa 200 �
 
 Für die Füllung Speisestärke und Eigelb mit etwas Milch verrühren, restliche Milch mit Zucker, Vanillezucker und Salz zum Kochen bringen, angerührte Speisestärke einrühren und aufkochen lassen. Unter häufigem Umrühren abkühlen lassen.
 
-Weiche Butter oder Margarine schaumig rühren, abgekühlten Pudding eßlöffelweise unterrühren. Sahne steif schlagen und unter die Creme ziehen.
+Weiche Butter oder Margarine schaumig rühren, abgekühlten Pudding esslöffelweise unterrühren. Sahne steif schlagen und unter die Creme ziehen.
 
 Abgekühlte Kuchenplatte in Stücke schneiden, jedes Stück einmal durchschneiden, unteren Boden mit Creme bestreichen, oberen wieder draufsetzen.
 

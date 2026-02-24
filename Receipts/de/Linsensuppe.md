@@ -5,7 +5,7 @@
     400 g           Kartoffeln
     50 g            Schinkenspeck
     1               Zwiebel
-    1               Knobluchzehe
+    1               Knoblauchzehe
     1 TL            Currypulver
     2 EL            Gemüsebrühe
     2 Blätter       Lorbeer
@@ -19,7 +19,7 @@
 ## Zubereitung
 Linsen waschen und mit reichlich Wasser über Nacht quellen lassen.
 
-Gewürfelten Speck, kleingewürfelte Zwiebeln und kleingekachten Knoblauch glasig andünsten.
+Gewürfelten Speck, kleingewürfelte Zwiebeln und kleingehackten Knoblauch glasig andünsten.
 
 Nun die Linsen mit dem Einweichwasser, einem Liter extra Wasser, klein-gewürfelten Kartoffeln und allen anderen Zutaten 30 Minuten kochen lassen.
 

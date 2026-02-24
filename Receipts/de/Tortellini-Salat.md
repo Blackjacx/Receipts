@@ -2,7 +2,7 @@
 
 ## Zutaten für 1 Portion
 
-    250 g           Torttellini
+    250 g           Tortellini
      50 g           Cocktailtomaten
       1 Becher      Mozzarellakugeln
       1 EL          Olivenöl
