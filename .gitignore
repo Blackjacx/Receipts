@@ -2,3 +2,6 @@
 .DS_Store
 .Ulysses-Group.plist
 
+# Claude
+
+.claude/settings.local.json
