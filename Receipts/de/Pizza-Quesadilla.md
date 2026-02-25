@@ -1,7 +1,7 @@
 # Pizza Quesadilla
 
 ## Zutaten
-                    Pepperoni
+                    Pepperoni-Salami
                     Mozzarella
     1               Ei
     1               Tortilla
