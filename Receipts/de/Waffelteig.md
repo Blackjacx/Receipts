@@ -6,6 +6,7 @@
     3/8 l           saure Sahne
       3             Eigelb
       3             Eiweiß
+     40 g           Zucker
 
 ## Zubereitung
 

@@ -5,6 +5,7 @@
     3 EL        Wasser
     1 TL        Salz
     300 ml      Wasser
+                Essig
                 Zwiebel
                 Schnittlauch / Schalotten
                 Dill

@@ -6,9 +6,10 @@
       1             Kartoffel, mittelgroß, mehlig kochend
       1             Apfel, klein
       1             Zwiebel
+    2-3 Zehen       Knoblauch
     500 ml          Gemüsebrühe
     200 ml          Kokosmilch, fettreduziert
-  1/1-1 TL          Currypaste
+  1/2 - 1 TL        Currypaste
   1 Stück           Ingwer
                     Jodsalz
                     Pfeffer
