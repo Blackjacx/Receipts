@@ -10,11 +10,11 @@
     1 Beet          Kresse
     2 Esslöffel     gehackten Schnittlauch und Petersilie
     8 Esslöffel     Apfelessig
-    8 Esslöffel     Wallnussöl
+    8 Esslöffel     Walnussöl
     2 Teelöffel     süßer Senf
                     Salz
                     Pfeffer aus der Mühle
                     Zucker
 
 ## Zubereitung
-Kartoffeln als Pellkartoffeln garen, etwas abkühlen lassen und pellen. Äpfel waschen, Kerngehäuse entfernen und in Stückchen schneiden. Gurken, Paprika, Schinken und Kartoffeln in Stückchen schneiden. Schalotten in Ringe schneiden. Alles zusammen mit Kresse Kräutern, Essig, Öl und Senf mixen, abschmecken und eine kurze Weile durchziehen lassen.
+Kartoffeln als Pellkartoffeln garen, etwas abkühlen lassen und pellen. Äpfel waschen, Kerngehäuse entfernen und in Stückchen schneiden. Gurken, Paprika, Schinken und Kartoffeln in Stückchen schneiden. Schalotten in Ringe schneiden. Alles zusammen mit Kresse, Kräutern, Essig, Öl und Senf mixen, abschmecken und eine kurze Weile durchziehen lassen.

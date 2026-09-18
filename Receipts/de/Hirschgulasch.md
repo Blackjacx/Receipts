@@ -23,7 +23,7 @@
                 Salz und Pfeffer
 
 ## Einlegen des Fleisches (24-48h)
-Hirschfleisch zunächst in mundgerechte Stücke schneiden. Gemüse putzen und grob schneiden. Dann zusammen mit der Flasche Rotwein, etwas Pfeffer, den Wacholderbeeren und den Lorbeerblättern 5-10 Minuten aufkochen. Den Sud abkühlen lassen. Wenn dieser Handwarm ist, die Buttermilch hinzugeben und das Hirschfleisch einlegen.
+Hirschfleisch zunächst in mundgerechte Stücke schneiden. Gemüse putzen und grob schneiden. Dann zusammen mit der Flasche Rotwein, etwas Pfeffer, den Wacholderbeeren und den Lorbeerblättern 5-10 Minuten aufkochen. Den Sud abkühlen lassen. Wenn dieser handwarm ist, die Buttermilch hinzugeben und das Hirschfleisch einlegen.
 
 ## Finale Zubereitung
 Sud abgießen, da dieser wegen der Buttermilch nicht mehr genutzt werden kann. Dann Fleisch und Gemüse trennen. Beides mit kaltem Wasser waschen, um die Buttermilchrückstände zu entfernen.

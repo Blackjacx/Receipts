@@ -18,11 +18,11 @@ Nudeln im kochenden Salzwasser 10 Minuten garen.
 
 Porree waschen, in dicke Ringe schneiden. Drei Minuten vor Ende der Garzeit den Porree zu den Nudeln geben, dann abtropfen lassen.
 
-Tomaten halbieren, Paprike in Streifen schneiden, Petersilie fein hacken.
+Tomaten halbieren, Paprika in Streifen schneiden, Petersilie fein hacken.
 
 Eier mit Käse und Sahne verrühren, mit Salz und Pfeffer würzen. Alle Zutaten in einer großen Schüssel vermengen und auf einem gefetteten Blech verteilen.
 
-Im vorgeheizten Backofen bei 200°C ca. 30 minuten backen.
+Im vorgeheizten Backofen bei 200°C ca. 30 Minuten backen.
 
 ## Dauer
 50 Min.

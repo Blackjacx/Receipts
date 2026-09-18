@@ -3,7 +3,7 @@
 ## Zutaten
 
     1 Bund      Basilikum
-    2 EL        Pinien, oder Sonnenblumenkerne
+    2 EL        Pinien- oder Sonnenblumenkerne
     3 EL        Parmesan, frisch gerieben
     1/2 EL      Balsamico, hell
     100 ml      Olivenöl

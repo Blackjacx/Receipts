@@ -36,7 +36,7 @@
 ## Zubereitung
 Mehl in eine Schüssel geben, in die Mitte eine Mulde drücken und die Hefe hineinbröckeln. Mit etwas lauwarmer Milch, einem TL Zucker und wenig Mehl zu einem Vorteig verrühren und zugedeckt an einem warmen Ort etwa 15 Minuten gehen lassen. 
 
-Butter oder Margarine in der restlichen lauwarmen Milch auflösen und zusammen mit restlichem Zucker, einer Prise Salz und der abgeriebenen Zitronenschale auf den Mehlrand geben und zu einem glatten Teig verkneten. Teig so lange kneten , bis er sich vom Schüsselrand löst. Bei Bedarf noch etwas Mehl hinzufügen. Zugedeckt an einem warmen Ort 30 Minuten gehen lassen.
+Butter oder Margarine in der restlichen lauwarmen Milch auflösen und zusammen mit restlichem Zucker, einer Prise Salz und der abgeriebenen Zitronenschale auf den Mehlrand geben und zu einem glatten Teig verkneten. Teig so lange kneten, bis er sich vom Schüsselrand löst. Bei Bedarf noch etwas Mehl hinzufügen. Zugedeckt an einem warmen Ort 30 Minuten gehen lassen.
 
 Den gegangenen Teig nochmals kurz durchkneten, auf einem mit Backpapier belegten Backblech ausrollen und nochmals zugedeckt ca. 30 Minuten gehen lassen.
 

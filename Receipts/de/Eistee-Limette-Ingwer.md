@@ -9,7 +9,7 @@
     5           Minzstiele
 
 ## Zubereitung
-Wasser mit Zucker zum kochen bringen.
+Wasser mit Zucker zum Kochen bringen.
 
 Limetten waschen, halbieren und auspressen. Schalen in den Kochtopf werfen. 
 
