@@ -12,7 +12,7 @@
 
 ## Zubereitung
 
-Pinienkerne anrösten so weit wie möglich aber nicht schwarz, danach abkühlen lassen.
+Pinienkerne so weit wie möglich anrösten, aber nicht schwarz werden lassen, danach abkühlen lassen.
 
 Basilikumblätter von den Stängeln zupfen und die Stängel entsorgen.
 

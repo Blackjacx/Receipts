@@ -3,7 +3,7 @@
 ## Zutaten
     600 g           Pellkartoffeln
     2 Stück         Äpfel
-    1 Stück         Grüne und orangene Paprikaschote
+    1 Stück         grüne und orangene Paprikaschote
     10 Stück        Gewürzgurken
     2 Stück         Schalotten
     300 g           Kochschinken

@@ -10,7 +10,7 @@
     4 Esslöffel     Essig 10%
 
 ## Zubereitung
-Gurken in Scheiben und Zwiebeln in Ringe schneiden. Zucker und Senfkörner in ein Gefäß geben. Danach Gurken und Zwiebelringe in Schichten übereinander in das Gefäß geben. Zum Schluss Salz, Essig und Dill in das Glas geben und mit Pfeffer würzen. Die Gurken müssen min. 24h im Kühlschrank stehen um richtig durchzuziehen. Nach zwei Tagen schmecken sie richtig gut.
+Gurken in Scheiben und Zwiebeln in Ringe schneiden. Zucker und Senfkörner in ein Gefäß geben. Danach Gurken und Zwiebelringe in Schichten übereinander in das Gefäß geben. Zum Schluss Salz, Essig und Dill in das Glas geben und mit Pfeffer würzen. Die Gurken müssen min. 24h im Kühlschrank stehen, um richtig durchzuziehen. Nach zwei Tagen schmecken sie richtig gut.
 
 ## Dauer
 15 min

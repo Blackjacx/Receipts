@@ -1,4 +1,4 @@
-# Bolognese Sauce mit Tagliatelle (4 Personen)
+# Bolognesesauce mit Tagliatelle (4 Personen)
 
 ## Zutaten
     300 g           Rindfleisch
@@ -17,7 +17,7 @@
 1. Pancetta und Rindfleisch in kleine Würfel schneiden
 1. Pancetta ca. 10 Minuten mit dem Gemüse zusammen braten
 1. Rindfleisch hinzugeben und bei hoher Temperatur anbraten
-1. Das Ganze mit Wein ablöschen, um den Geschmack zu verstärken (Milch kann zum abschwächen des Geschmacks genutzt werden)
+1. Das Ganze mit Wein ablöschen, um den Geschmack zu verstärken (Milch kann zum Abschwächen des Geschmacks genutzt werden)
 1. Tomatenmark hinzugeben
 1. Mit Salz abschmecken
 1. 3-4h köcheln lassen, ab und zu umrühren

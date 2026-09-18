@@ -3,7 +3,7 @@
 ## Zutaten
     250 ml      Kokosmilch
     1/4 Stck.   Palmzucker
-    10 g        Curry Paste (1/4 Päckchen)
+    10 g        Currypaste (1/4 Päckchen)
     50 g        Hühnchen
     1 TL        geriebener Ingwer
     1 EL        Sojasoße
@@ -11,9 +11,9 @@
     1/4         Paprika
     1/2         kleine Möhre
     4           Erbsenschoten
-    20 g        Thai Basilikum
+    20 g        Thai-Basilikum
     2 Bund      Koriandergrün
-    4           Kaffir Blätter
+    4           Kaffirblätter
     1           kleine Chili
     1 Stg.      Zitronengras
     1 Stgl.     Lauchzwiebeln   

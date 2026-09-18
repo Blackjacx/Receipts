@@ -13,7 +13,7 @@ Jeden Tag, 5 Tage lang 50g Mehl mit 60ml Wasser mischen und den Teig abgedeckt b
 
 ### Dauer
 
-Min. 5 Tage um einen aktiven Sauerteig zu bekommen.
+Min. 5 Tage, um einen aktiven Sauerteig zu bekommen.
 
 ## Brotteig
 
@@ -34,15 +34,15 @@ Die Längsseite vom Brot einschneiden. Unten im Backofen eine Schale mit Wasser 
 
 #### Schwierig
 
-Sauerteig mit dem selben Anteil an Mehl und Wasser mischen und abgedeckt bei Zimmertemperatur 4h stehen lassen.
+Sauerteig mit demselben Anteil an Mehl und Wasser mischen und abgedeckt bei Zimmertemperatur 4h stehen lassen.
 
 Nach 3h den eigentlichen Teig vorbereiten. Dinkelmehl, Weizenmehl, Salz und restliches Wasser mischen und abgedeckt zu dem anderen Teig stellen.
 
-Nach 4h beide Teige gut miteinander verkneten und abgedeckt weitere 7h, bei Zimmertemperatur, gehen lassen. Während der 7h den Teig jede Stunde falten um eine gute Glutenstruktur zu entwickeln. Nach 7h den Teig auf einer Arbeitsplatte in eine runde Form bringen und 10 Min. liegen lassen. In dieser Zeit die Gärkörbchen (Schüssel mit Leinentuch) vorbereiten.
+Nach 4h beide Teige gut miteinander verkneten und abgedeckt weitere 7h, bei Zimmertemperatur, gehen lassen. Während der 7h den Teig jede Stunde falten, um eine gute Glutenstruktur zu entwickeln. Nach 7h den Teig auf einer Arbeitsplatte in eine runde Form bringen und 10 Min. liegen lassen. In dieser Zeit die Gärkörbchen (Schüssel mit Leinentuch) vorbereiten.
 
 Nun den Laib auf Spannung bringen. Dazu Mehl auf der Oberfläche verreiben und Laib umdrehen. Nun den unteren Teil langziehen/dehnen und zur Mitte falten. Den linken Teil dehnen und über den ganzen Laib falten. Genauso mit dem rechten und oberen Teil. Nun oben, in der Mitte und unten zusammenschlagen/verdrehen und von unten nach oben aufrollen. Nun Mehl auf die Oberseite und mit der Unterseite nach oben in den Gärkorb, abdecken und über Nacht in den Kühlschrank.
 
-Ofen bei 250°C mit einem gusseisernen Topf vorheizen. Danach die Längsseite vom Brot einschneiden. Brot in den gusseisernen Topf tun und 15 Minuten anbacken. Danach das Brot aus dem Topf nehmen und auf dem Rost ca. 30 Minuten fertigbacken bis es eine schöne dunkle Farbe hat.
+Ofen bei 250°C mit einem gusseisernen Topf vorheizen. Danach die Längsseite vom Brot einschneiden. Brot in den gusseisernen Topf tun und 15 Minuten anbacken. Danach das Brot aus dem Topf nehmen und auf dem Rost ca. 30 Minuten fertigbacken, bis es eine schöne dunkle Farbe hat.
 
 ### Dauer
 

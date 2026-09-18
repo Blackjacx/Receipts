@@ -17,7 +17,7 @@
 - Tomaten waschen und halbieren
 - Mozzarella abtropfen lassen und nach Belieben halbieren
 - Basilikum klein hacken
-- Alle Zutaten in eine Schüssel geben und mit Olivenöl
+- Alle Zutaten in eine Schüssel geben und mit Olivenöl vermengen
 - Mit Salz und Pfeffer abschmecken
 
 ## Dauer

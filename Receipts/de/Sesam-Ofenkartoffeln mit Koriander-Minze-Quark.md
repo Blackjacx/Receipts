@@ -16,7 +16,7 @@
 
 ## Zubereitung
 Kartoffeln gründlich waschen, längs halbieren und trocken tupfen. Olivenöl und Salz in einer Schüssel mischen, die Kartoffeln darin wenden. Auf einem mit Backpapier belegten Blech verteilen, im vorgeheizten Ofen bei 180°C je nach Größe ca. 30 min backen, mit Sesam bestreuen und in weiteren 15 min fertig garen.
-Quark, saure Sahne sowie die gehackten Kräuter und Lauchzwiebeln untermischen. Mineralwasser einrühren. Kräuterquark nach Belieben  salzen und pfeffern. Mit den gebackenen Kartoffelhälften anrichten.
+Quark, saure Sahne sowie die gehackten Kräuter und Lauchzwiebeln untermischen. Mineralwasser einrühren. Kräuterquark nach Belieben salzen und pfeffern. Mit den gebackenen Kartoffelhälften anrichten.
 
 ## Dauer
 1 h

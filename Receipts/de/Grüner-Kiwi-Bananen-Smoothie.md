@@ -1,4 +1,4 @@
-# Grüner Kiwi Bananen Smoothie
+# Grüner Kiwi-Bananen-Smoothie
 
 ## Zutaten
     1 Bund              Radieschen-Grün (ungespritzt bzw. Bio)
@@ -10,10 +10,10 @@
     1 Teelöffel         Öl (Leinöl)
 
 ## Zubereitung
-Das Radieschengrün, gründlich waschen, trocken schütteln und hacken. Die Banane und die Kiwi schälen und grob in Stücke schneiden. Alles zusammen mit Wasser, Orangensaft, Leinöl und Limonensaft im Mixer fein pürieren. 
+Das Radieschengrün gründlich waschen, trocken schütteln und hacken. Die Banane und die Kiwi schälen und grob in Stücke schneiden. Alles zusammen mit Wasser, Orangensaft, Leinöl und Limonensaft im Mixer fein pürieren. 
 
 ## Tipp
-Radieschen sind sehr gesund und enthalten unter anderem Senföl, welches für den leicht scharfen Geschmack der Radieschen verantwortlich ist und antibakteriell wirkt. Dem Radieschengrün wird nachgesagt noch nährstoffreicher als die Radieschen an sich zu sein und sollte daher nicht einfach weggeworfen werden.
+Radieschen sind sehr gesund und enthalten unter anderem Senföl, welches für den leicht scharfen Geschmack der Radieschen verantwortlich ist und antibakteriell wirkt. Dem Radieschengrün wird nachgesagt, noch nährstoffreicher als die Radieschen an sich zu sein, und es sollte daher nicht einfach weggeworfen werden.
 
 ## Dauer
 10 min

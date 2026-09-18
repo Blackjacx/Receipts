@@ -1,4 +1,4 @@
-# Nudel Schinken Gratin
+# Nudel-Schinken-Gratin
 
 ## Zutaten
     400 g           Nudeln nach Wahl

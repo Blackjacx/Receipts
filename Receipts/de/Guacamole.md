@@ -7,10 +7,10 @@
     1 EL        Korianderblätter
     1           Limette
     1/2         Jalapeño
-                Meersalz und Pfeffer auf der Mühle
+                Meersalz und Pfeffer aus der Mühle
 
 ## Zubereitung
-Avocado von Schale befreien, Kern zum späteren Garnieren aufbewahren. Avocado in kleine Stücke schneiden und in Schüssel geben. Limetten auspressen und über die Avocados geben. Salz und Pfeffer hinzufügen und alles mit einer Gabel zerdrücken.
+Avocado von Schale befreien, Kern zum späteren Garnieren aufbewahren. Avocado in kleine Stücke schneiden und in Schüssel geben. Limette auspressen und über die Avocado geben. Salz und Pfeffer hinzufügen und alles mit einer Gabel zerdrücken.
 
 Tomate, Zwiebel, Koriander und Jalapeño klein schneiden und zum Mus hinzufügen. Alles noch einmal kurz zerdrücken, mit dem Avocadostein garnieren.
 
