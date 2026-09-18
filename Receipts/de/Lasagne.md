@@ -32,7 +32,7 @@ Butter in einem kleinen Topf oder einer Kasserolle schmelzen. Mehl mit einem Sch
 
 ### Lasagne 
 In einer gebutterten, feuerfesten Form etwas Bolognesesauce verteilen, eine Schicht Lasagneplatten darauf legen, die Nudelschicht wieder mit Bolognesesauce und dann mit einer Schicht Béchamel bedecken. Anschließend wieder eine Schicht Nudeln, Bolognesesauce und Béchamel. So Schicht für Schicht die Form füllen. 
-Die letzte Schicht sollte die Béchamelsauce bilden und dick mit geriebenem Käse bestreuen. Die Lasagne bei 180 °C Umluft ca. 30 - 40 Minuten backen, bis die Kruste goldbraun ist.
+Die letzte Schicht sollte die Béchamelsauce bilden; diese dick mit geriebenem Käse bestreuen. Die Lasagne bei 180 °C Umluft ca. 30 - 40 Minuten backen, bis die Kruste goldbraun ist.
 
 #### Tipp
 Die Lasagne kann man auch gut einen Tag vorher vorbereiten und im Kühlschrank ziehen lassen.

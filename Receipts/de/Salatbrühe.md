@@ -10,7 +10,7 @@
                 Dill
 
 ## Zubereitung
-Zwiebeln und Dill fein hacken, Schnittlauch / Schalotten in Ringe schneiden. Das Salz und der Zucker muss im Wasser aufgelöst werden. Danach den Essig hinzugeben. Die Kräuter hinzugeben und alles über dem Salat verteilen.
+Zwiebeln und Dill fein hacken, Schnittlauch / Schalotten in Ringe schneiden. Das Salz und der Zucker müssen im Wasser aufgelöst werden. Danach den Essig hinzugeben. Die Kräuter hinzugeben und alles über dem Salat verteilen.
 
 ## Dauer
 10 Min.

@@ -13,7 +13,7 @@
 	1 Beutel        Gewürzmischung
 
 ## Zubereitung
-Margarine, Eier, Zucker sahnig schlagen. Mehl, Gewürzmischung, Vanillezucker, Kakao, Schokostreusel und Backpulver mischen, dazugeben und verrühren. Nun den Rotwein einrühren. Form vor dem Einfüllen mit Margarine einreiben und mit Semmelbröseln bestreuen. Bei 150°C ca 60 min backen.
+Margarine, Eier, Zucker sahnig schlagen. Mehl, Gewürzmischung, Vanillezucker, Kakao, Schokostreusel und Backpulver mischen, dazugeben und verrühren. Nun den Rotwein einrühren. Form vor dem Einfüllen mit Margarine einreiben und mit Semmelbröseln bestreuen. Bei 150°C ca. 60 min backen.
 
 ## Dauer
 1 h 30 min

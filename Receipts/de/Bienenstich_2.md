@@ -1,7 +1,7 @@
 # Bienenstich
 
 
-## Zutaten Für den Teig
+## Zutaten für den Teig
 ```
 500 g           Mehl 
 1 Würfel        Hefe (42 g) 
@@ -12,7 +12,7 @@
 1               abgeriebene Schale einer Zitrone 
 ```
 
-# Zutaten Für den Belag
+## Zutaten für den Belag
 ```
 200 g           Butter oder Margarine 
 200 g           Mandelblättchen 
@@ -21,7 +21,7 @@
 2 EL            Milch 
 ```
 
-# Zutaten Für die Füllung
+## Zutaten für die Füllung
 ```
 45 g            Speisestärke 
 2               Eigelb 

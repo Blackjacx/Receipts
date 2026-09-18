@@ -1,7 +1,7 @@
 # Kürbissuppe
 
 ## Zutaten
-    1 kg            Hokkaido-, Butternut- oder anderen Kürbis
+    1 kg            Hokkaido-, Butternut- oder anderer Kürbis
     1 l             Wasser
     3               Möhren
     3               Kartoffeln
@@ -11,7 +11,7 @@
     250 ml          Kokosmilch
                     Suppengemüse (kein Lauch)
                     Wintergemüse (Pastinake, Rote Beete, …)
-                    Pfeffer, Thaicurry, Kreuzkümmel, Paprika Edelsüß
+                    Pfeffer, Thaicurry, Kreuzkümmel, Paprika edelsüß
                     Majoran nach Bedarf
 
 ## Zubereitung

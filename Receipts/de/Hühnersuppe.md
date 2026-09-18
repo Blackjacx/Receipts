@@ -19,7 +19,7 @@ In der Zwischenzeit das restliche Gemüse nach Belieben klein schneiden.
 Wenn das Huhn fertig ist, muss alles aus dem Topf durch ein Sieb geschüttet werden, mit dem man z.B. Nudeln oder Reis siebt.
 Die Brühe wird danach wieder zurück in den Kochtopf gegeben.
 Das Fleisch wird von den Knochen gelöst und klein geschnitten.
-Das gekochte Gemüse, Lorbeerblatt und die Pimentkörner werden nicht mehr verwendet.
+Das gekochte Gemüse, das Lorbeerblatt und die Pimentkörner werden nicht mehr verwendet.
 
 Das Fleisch und die Brühe kommen nun mitsamt dem geschnittenen Gemüse sowie den Nudeln in den Topf. Noch einmal 10-15 Minuten kochen. Mit Salz und Pfeffer abschmecken, Petersilie hinzugeben.
 

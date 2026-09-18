@@ -5,7 +5,7 @@
     1 Stange        Porree
     300 g           Shiitake
     300 g           Egerlinge
-    6 Zweigen       Rosmarin
+    6 Zweige        Rosmarin
     2               Knoblauchzehen
     6 Esslöffel     Olivenöl
     6 Esslöffel     weißer Balsamico

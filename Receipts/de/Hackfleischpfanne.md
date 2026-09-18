@@ -12,7 +12,7 @@
     2 Beutel        Jägersoße (kleine)
 
 ## Zubereitung
-Die oberen Zutaten wie zu einem Klops vorbereiten, Paprikaschoten und Pilze klein schneiden. Vom Paprika und den Pilzen etwas zurückhalten, alles andere unter die Gehacktesmasse geben und auf ein ungefettetes Blech mit einem hohen Rand drücken. Etwas stehen lassen, den Rest von Paprika und Pilzen obendrauf verteilen.
+Die oberen Zutaten wie zu einem Klops vorbereiten, Paprikaschoten und Pilze klein schneiden. Von der Paprika und den Pilzen etwas zurückhalten, alles andere unter die Gehacktesmasse geben und auf ein ungefettetes Blech mit einem hohen Rand drücken. Etwas stehen lassen, den Rest von Paprika und Pilzen obendrauf verteilen.
 
 Vor dem Backen werden die Sahne, der Schmand und die Jägersoße verrührt und auf der Gehacktestorte verteilt. Diese wird ca. 30-40 min. in der Backröhre gebacken.
 
