@@ -18,7 +18,7 @@
                     Olivenöl
 
 ## Zubereitung
-Zucchini, Karotten und Lauch in dünne Scheiben schneiden, die Paprika in kleine Würfel. Hackfleisch in Öl anbraten, würzen Gemüse zugeben und alles zusammen ca. 10 Minuten schmoren lassen. Anschließend passierte Tomaten und Wasser hinzugeben. Knoblauch pressen und hinzugeben. Nun die Spaghetti und Kräuter unterrühren. 7-10 Minuten kochen lassen, dann nochmals mit Salz und Pfeffer abschmecken.
+Zucchini, Karotten und Lauch in dünne Scheiben schneiden, die Paprika in kleine Würfel. Hackfleisch in Öl anbraten, würzen, Gemüse zugeben und alles zusammen ca. 10 Minuten schmoren lassen. Anschließend passierte Tomaten und Wasser hinzugeben. Knoblauch pressen und hinzugeben. Nun die Spaghetti und Kräuter unterrühren. 7-10 Minuten kochen lassen, dann nochmals mit Salz und Pfeffer abschmecken.
 
 ## Dauer
 40 Min.

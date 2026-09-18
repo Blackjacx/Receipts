@@ -21,7 +21,7 @@ Linsen waschen und mit reichlich Wasser über Nacht quellen lassen.
 
 Gewürfelten Speck, kleingewürfelte Zwiebeln und kleingehackten Knoblauch glasig andünsten.
 
-Nun die Linsen mit dem Einweichwasser, einem Liter extra Wasser, klein-gewürfelten Kartoffeln und allen anderen Zutaten 30 Minuten kochen lassen.
+Nun die Linsen mit dem Einweichwasser, einem Liter extra Wasser, kleingewürfelten Kartoffeln und allen anderen Zutaten 30 Minuten kochen lassen.
 
 Mit Salz, Pfeffer, einer Prise Zucker und Muskatnuss, Majoran und Essig süßsauer abschmecken und auftragen.
 

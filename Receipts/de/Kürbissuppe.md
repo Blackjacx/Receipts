@@ -17,7 +17,7 @@
 ## Zubereitung
 Alles Gemüse schälen und grob würfeln. Dann in einem Topf scharf anbraten. Nun das Wasser hinzufügen und 30 min kochen lassen. Mit Salz und Gewürzen abschmecken. 
 
-Das ganze abkühlen lassen, Ingwer frisch hinzufügen und cremig pürieren.
+Das Ganze abkühlen lassen, Ingwer frisch hinzufügen und cremig pürieren.
 
 ## Dauer
 45 min

@@ -3,7 +3,7 @@
 ## Zutaten
     480 g           Tartar
     2               Zwiebeln
-    1,5 l           Rinderboullion
+    1,5 l           Rinderbouillon
     6 Stg           Porree (Lauch)
     2 EL            Mehl
     75 g            Schmelzkäseecken (25 % Fett)
@@ -13,7 +13,7 @@
                     Paprika edelsüß
 
 ## Zubereitung
-Tartar in einer beschichteten Pfanne fettfrei anbraten. Zwiebeln würfeln und mitdünsten. Mit der Boullion auffüllen und den in Ringe geschnittenen Porree hinzufügen. 
+Tartar in einer beschichteten Pfanne fettfrei anbraten. Zwiebeln würfeln und mitdünsten. Mit der Bouillon auffüllen und den in Ringe geschnittenen Porree hinzufügen. 
 
 2 EL Mehl mit 1/2 Tasse kaltem Wasser verrühren und dann langsam, unter Rühren zur Suppe geben. 
 

@@ -17,7 +17,7 @@
     6 EL            Olivenöl
 
 ## Zubereitung
-Kichererbsen über nacht in kaltem Wasser einweichen. Danach Wasser weg kippen und Erbsen waschen. Gurke, Kirschtomaten und Lauchzwiebeln waschen. Gurke der Länge halbieren und beide Hälften erneut halbieren. In feine Scheiben schneiden.
+Kichererbsen über Nacht in kaltem Wasser einweichen. Danach Wasser wegkippen und Erbsen waschen. Gurke, Kirschtomaten und Lauchzwiebeln waschen. Gurke der Länge nach halbieren und beide Hälften erneut halbieren. In feine Scheiben schneiden.
 
 Kirschtomaten halbieren und Lauchzwiebeln in Ringe schneiden. Petersilie waschen, trocken tupfen, die Blätter abzupfen und grob hacken. Das Gemüse und die Petersilie in eine große Schüssel geben.
 

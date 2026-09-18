@@ -1,4 +1,4 @@
-# Kartoffelsalat nach Oma's Art
+# Kartoffelsalat nach Omas Art
 
 ## Zutaten
     500 g           Pellkartoffeln

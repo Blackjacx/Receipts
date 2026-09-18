@@ -12,8 +12,8 @@
 ### Belag  
     1 Zehen         Knoblauch
     1/2 Tube        Tomatenmark
-    300 g           Passierte Tomaten / Alternativ: Pastasauße fertig mit z.B. Basilikum
-    1 Stück         Mozarellakugel
+    300 g           Passierte Tomaten / Alternativ: Pastasoße fertig mit z.B. Basilikum
+    1 Stück         Mozzarellakugel
                     Oregano und Thymian
 
 ## Zubereitung

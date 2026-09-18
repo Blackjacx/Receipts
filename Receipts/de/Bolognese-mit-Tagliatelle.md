@@ -21,5 +21,5 @@
 1. Tomatenmark hinzugeben
 1. Mit Salz abschmecken
 1. 3-4h köcheln lassen, ab und zu umrühren
-1. Taglatelle kochen - pro l Wasser 20 g Salz hinzugeben
-1. Pasta mit Sauße vermengen. Sollte die Sauce nicht haften, kann ein Schuss Nudelwasser dieses Problem lösen.
+1. Tagliatelle kochen - pro l Wasser 20 g Salz hinzugeben
+1. Pasta mit Soße vermengen. Sollte die Sauce nicht haften, kann ein Schuss Nudelwasser dieses Problem lösen.

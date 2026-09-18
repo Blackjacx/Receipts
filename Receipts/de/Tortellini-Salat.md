@@ -15,7 +15,7 @@
 
 - Tortellini nach Packungsanleitung garen
 - Tomaten waschen und halbieren
-- Mozzarella abtropfen lassen und nach belieben halbieren
+- Mozzarella abtropfen lassen und nach Belieben halbieren
 - Basilikum klein hacken
 - Alle Zutaten in eine Schüssel geben und mit Olivenöl
 - Mit Salz und Pfeffer abschmecken

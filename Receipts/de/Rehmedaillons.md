@@ -25,7 +25,7 @@
                 Rosmarinzweige
 
 ## Zubereitung
-Kartoffeln und Sellerie Schälen, waschen, in grobe Stücke schneiden und in einem Topf mit Salzwasser in ca. 20 min. weich kochen. Abgießen und ausdampfen lassen.
+Kartoffeln und Sellerie schälen, waschen, in grobe Stücke schneiden und in einem Topf mit Salzwasser in ca. 20 min. weich kochen. Abgießen und ausdampfen lassen.
 
 Backofen auf 120°C (Umluft 100°C) vorheizen. Rehrücken abwaschen, trockentupfen und von Sehnen befreien. Sehnen beiseite stellen. Thymianblättchen abzupfen. Brombeeren waschen und putzen. Schalotten abziehen und fein würfeln. Steinpilze putzen. Koriandersamen leicht andrücken.
 
