@@ -9,6 +9,7 @@
     100 ml      Olivenöl
     3 Zehen     Knoblauch
     1/2 TL      Salz
+                Pfeffer
 
 ## Zubereitung
 
