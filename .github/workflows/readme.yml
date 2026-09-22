@@ -1,4 +1,4 @@
-name: Update README
+name: Update recipe indexes
 
 on:
   push:
@@ -22,17 +22,17 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Generate README
+      - name: Generate recipe indexes
         run: .github/scripts/generate-readme.sh
 
-      - name: Commit README if it changed
+      - name: Commit indexes if they changed
         run: |
-          if git diff --quiet README.md; then
-            echo "README is already up to date."
+          git add README.md Receipts/*/README.md
+          if git diff --cached --quiet; then
+            echo "Recipe indexes are already up to date."
             exit 0
           fi
           git config user.name "Stefan Herold"
           git config user.email "794372+Blackjacx@users.noreply.github.com"
-          git add README.md
-          git commit -m "docs: regenerate README"
+          git commit -m "docs: regenerate recipe indexes"
           git push
