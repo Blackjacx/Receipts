@@ -1,0 +1,38 @@
+name: Update README
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Receipts/**"
+      - ".github/scripts/generate-readme.sh"
+      - ".github/workflows/readme.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme
+  cancel-in-progress: false
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Generate README
+        run: .github/scripts/generate-readme.sh
+
+      - name: Commit README if it changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "README is already up to date."
+            exit 0
+          fi
+          git config user.name "Stefan Herold"
+          git config user.email "794372+Blackjacx@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: regenerate README"
+          git push
