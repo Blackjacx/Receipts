@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 #
-# Generates README.md from the recipes in Receipts/de.
+# Generates the recipe indexes from the recipes in Receipts/<language>.
 #
-# Recipes are grouped by the total time given in their "## Dauer" section
-# into the categories Schnell (quick), Mittel (medium) and Lang (long).
-# The README itself is written in German, like the recipes.
+# Recipes are grouped by the total time given in their duration section
+# ("## Dauer" in German, "## Duration" in English) into three categories:
+# quick, medium and long. Each index is written in the language of its
+# recipes:
+#
+#   Receipts/de  ->  README.md             (German, the main README)
+#   Receipts/en  ->  Receipts/en/README.md (English)
 #
 # Runs automatically via .github/workflows/readme.yml on every push to
 # main, and can also be run locally:
@@ -16,15 +20,36 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
-RECIPES="$ROOT/Receipts/de"
-README="$ROOT/README.md"
 
-# Each file is preceded by a marker line so awk can tell files apart even
-# when a file is empty or lacks a trailing newline.
+# Languages that have index labels in the awk program below.
+SUPPORTED="de en"
+
+# Every subfolder of Receipts/ is one language, e.g. "de" and "en".
+languages() {
+    local d
+    for d in "$ROOT/Receipts"/*/; do
+        [ -d "$d" ] || continue
+        d="${d%/}"
+        printf '%s ' "${d##*/}"
+    done
+}
+
+# Languages that get an index: present as a folder and supported.
+indexed_languages() {
+    local lang
+    for lang in $(languages); do
+        case " $SUPPORTED " in *" $lang "*) printf '%s ' "$lang" ;; esac
+    done
+}
+
+# Each recipe is preceded by a marker line so awk can tell files apart even
+# when a file is empty or lacks a trailing newline. README.md files are the
+# generated indexes, not recipes.
 emit_recipes() {
     local f
-    for f in "$RECIPES"/*.md; do
+    for f in "$1"/*.md; do
         [ -e "$f" ] || continue
+        [ "${f##*/}" = "README.md" ] && continue
         printf '\001FILE\t%s\n' "${f##*/}"
         cat "$f"
         printf '\n'
@@ -36,20 +61,47 @@ BEGIN {
     for (i = 1; i < 256; i++) ord[sprintf("%c", i)] = i
 
     NUM  = "([0-9]+/[0-9]+|½|[0-9]+([.,][0-9]+)?)"
-    UNIT = "(minuten|minute|min\\.?|stunden|stunde|std\\.?|h|tage|tag|nächte|nacht|wochen|woche)"
+    UNIT = "(minuten|minute|minutes|mins|min\\.?|stunden|stunde|std\\.?|hours|hour|hrs|hr|h|tage|tag|days|day|nächte|nacht|nights|night|wochen|woche|weeks|week)"
     TOKEN = NUM "([ \t]*(-|–)[ \t]*" NUM ")?[ \t]*" UNIT
 
     unitmin["min"] = 1; unitmin["std"] = 60; unitmin["tag"] = 1440
     unitmin["nacht"] = 600; unitmin["woche"] = 10080
 
     ncat = 3
-    catname[1] = "Schnell"; catdesc[1] = "bis 30 Min.";  catlimit[1] = 30
-    catname[2] = "Mittel";  catdesc[2] = "bis 1 Std.";   catlimit[2] = 60
-    catname[3] = "Lang";    catdesc[3] = "über 1 Std.";  catlimit[3] = -1
+    catlimit[1] = 30; catlimit[2] = 60; catlimit[3] = -1
 
-    langname["de"] = "Deutsch"; langname["en"] = "Englisch"
-    langname["fr"] = "Französisch"; langname["es"] = "Spanisch"; langname["it"] = "Italienisch"
+    if (ui == "en") {
+        HEADING = "## Duration"; AND = "and"; RANGE = "to"
+        catname[1] = "Quick";  catdesc[1] = "up to 30 min"
+        catname[2] = "Medium"; catdesc[2] = "up to 1 h"
+        catname[3] = "Long";   catdesc[3] = "over 1 h"
+        nodur = "Without duration"; nodur_anchor = "without-duration"
+        unitlabel["min"] = "min"; unitlabel["std"] = "h"
+        unitlabel["tag"] = "day"; unitplural["tag"] = "days"
+        unitlabel["nacht"] = "night"; unitplural["nacht"] = "nights"
+        unitlabel["woche"] = "week"; unitplural["woche"] = "weeks"
+        langname["de"] = "German"; langname["en"] = "English"
+        langname["fr"] = "French"; langname["es"] = "Spanish"; langname["it"] = "Italian"
+        adjective["de"] = "German"; adjective["en"] = "English"
+    } else {
+        HEADING = "## Dauer"; AND = "und"; RANGE = "bis"
+        catname[1] = "Schnell"; catdesc[1] = "bis 30 Min."
+        catname[2] = "Mittel";  catdesc[2] = "bis 1 Std."
+        catname[3] = "Lang";    catdesc[3] = "über 1 Std."
+        nodur = "Ohne Zeitangabe"; nodur_anchor = "ohne-zeitangabe"
+        unitlabel["min"] = "Min."; unitlabel["std"] = "Std."
+        unitlabel["tag"] = "Tag"; unitplural["tag"] = "Tage"
+        unitlabel["nacht"] = "Nacht"; unitplural["nacht"] = "Nächte"
+        unitlabel["woche"] = "Woche"; unitplural["woche"] = "Wochen"
+        langname["de"] = "Deutsch"; langname["en"] = "Englisch"
+        langname["fr"] = "Französisch"; langname["es"] = "Spanisch"; langname["it"] = "Italienisch"
+        adjective["de"] = "deutschen"; adjective["en"] = "englischen"
+    }
+    unitplural["min"] = unitlabel["min"]; unitplural["std"] = unitlabel["std"]
+
     nlang = split(langs, lang, " ")
+    nindexed = split(indexed, idx, " ")
+    for (i = 1; i <= nindexed; i++) isindexed[idx[i]] = 1
 
     n = 0
 }
@@ -68,9 +120,9 @@ function urlencode(s,    i, c, out) {
 function unitkey(u) {
     sub(/\.$/, "", u)
     if (u ~ /^min/) return "min"
-    if (u == "h" || u == "std" || u ~ /^stunde/) return "std"
-    if (u ~ /^tag/) return "tag"
-    if (u ~ /^nacht/ || u ~ /^nächte/) return "nacht"
+    if (u == "h" || u ~ /^(std|stunde|hour|hr)/) return "std"
+    if (u ~ /^(tag|day)/) return "tag"
+    if (u ~ /^(nacht|nächte|night)/) return "nacht"
     return "woche"
 }
 
@@ -98,17 +150,11 @@ function splittoken(tok,    t, sep, i) {
     }
 }
 
-function normtoken(tok,    key, val, plural, label) {
+function normtoken(tok,    key, val) {
     splittoken(tok)
     key = unitkey(TU)
     val = numval(TB != "" ? TB : TA)
-    plural = val > 1
-    if (key == "min") label = "Min."
-    else if (key == "std") label = "Std."
-    else if (key == "tag") label = plural ? "Tage" : "Tag"
-    else if (key == "nacht") label = plural ? "Nächte" : "Nacht"
-    else label = plural ? "Wochen" : "Woche"
-    return numfmt(TA) (TB != "" ? "–" numfmt(TB) : "") " " label
+    return numfmt(TA) (TB != "" ? "–" numfmt(TB) : "") " " (val > 1 ? unitplural[key] : unitlabel[key])
 }
 
 # Finds the next duration in s that does not end in the middle of a word.
@@ -129,7 +175,7 @@ function minutes(part,    s, low, total) {
     # Store tolower() in a variable first: original-awk (macOS) returns a
     # wrong value for match(tolower(s), ...) otherwise.
     low = tolower(s)
-    if (match(low, /[ \t]+(-|–|bis)[ \t]+/)) s = substr(s, 1, RSTART - 1)
+    if (match(low, "[ \t]+(-|–|" RANGE ")[ \t]+")) s = substr(s, 1, RSTART - 1)
     total = 0
     while (nexttoken(s)) {
         splittoken(substr(s, TSTART, TLEN))
@@ -147,7 +193,7 @@ function display(part,    s, out) {
     }
     out = out s
     gsub(/[ \t]+/, " ", out)
-    gsub(/ - /, " bis ", out)
+    gsub(/ - /, " " RANGE " ", out)
     return out
 }
 
@@ -155,7 +201,7 @@ function finish(    text, parts, np, i, p, c, total, shown) {
     if (file == "") return
     text = dauer
     gsub(/<br[ \t]*\/?>/, "\n", text)
-    gsub(/[ \t]+und[ \t]+/, "\n", text)
+    gsub("[ \t]+" AND "[ \t]+", "\n", text)
     np = split(text, parts, "\n")
     total = 0; shown = ""
     for (i = 1; i <= np; i++) {
@@ -175,7 +221,7 @@ function finish(    text, parts, np, i, p, c, total, shown) {
 substr($0, 1, 6) == "\001FILE\t" { finish(); file = substr($0, 7); title = ""; insec = 0; seen = 0; dauer = ""; next }
 insec && (/^# / || /^## /) { insec = 0 }
 title == "" && /^# / { title = trim(substr($0, 3)) }
-!seen && /^## Dauer[ \t]*$/ { insec = 1; seen = 1; next }
+!seen && $0 ~ ("^" HEADING "[ \t]*$") { insec = 1; seen = 1; next }
 insec { dauer = dauer $0 "\n" }
 
 function before(a, b) {
@@ -184,14 +230,21 @@ function before(a, b) {
 }
 
 function row(i, withtime,    link) {
-    link = "[" rtitle[i] "](Receipts/de/" urlencode(rfile[i]) ")"
+    link = "[" rtitle[i] "](" recipe_prefix urlencode(rfile[i]) ")"
     return withtime ? "| " link " | " rshown[i] " |" : "| " link " |"
 }
 
-function table(c, withtime,    out, k) {
-    out = withtime ? "| Rezept | Dauer |\n|---|---|" : "| Rezept |\n|---|"
+function table(c, withtime,    out, k, head) {
+    head = (ui == "en") ? "Recipe" : "Rezept"
+    out = withtime ? "| " head " | " ((ui == "en") ? "Duration" : "Dauer") " |\n|---|---|" : "| " head " |\n|---|"
     for (k = 1; k <= cnt[c]; k++) out = out "\n" row(member[c, k], withtime)
     return out
+}
+
+# Link from this index to the index of language l.
+function indexlink(l) {
+    if (l == "de") return (ui == "de") ? "" : receipts_prefix "../README.md"
+    return receipts_prefix l
 }
 
 END {
@@ -204,7 +257,7 @@ END {
         }
     }
 
-    # Category 4 = recipes without a duration ("Ohne Zeitangabe")
+    # Category 4 = recipes without a duration
     for (c = 1; c <= 4; c++) cnt[c] = 0
     for (i = 1; i <= n; i++) {
         if (rmin[i] <= 0) c = 4
@@ -215,30 +268,59 @@ END {
         member[c, k] = i
     }
 
-    print "<!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->"
-    print ""
-    print "# Receipts"
-    print ""
-    if (nlang > 1) {
-        print "Unsere Rezeptsammlung. Die Rezepte gibt es in mehreren Sprachen:"
+    others = ""
+    for (i = 1; i <= nindexed; i++) if (idx[i] != ui) others = others " " idx[i]
+
+    if (ui == "en") {
+        print "<!-- This file is generated automatically by .github/scripts/generate-readme.sh. Manual changes will be overwritten on the next push. -->"
+        print ""
+        print "# Receipts"
+        print ""
+        print "Our recipe collection. The recipes are available in several languages:"
         print ""
         for (i = 1; i <= nlang; i++)
-            print "- " (lang[i] in langname ? langname[lang[i]] : lang[i]) ": [`Receipts/" lang[i] "`](Receipts/" lang[i] ")"
+            print "- " (lang[i] in langname ? langname[lang[i]] : lang[i]) ": [`Receipts/" lang[i] "`](" receipts_prefix lang[i] ")"
         print ""
-        print "Die Übersicht unten verlinkt die deutschen Rezepte."
+        line = "The index below links the English recipes."
+        for (i = 1; i <= nindexed; i++) if (idx[i] != ui)
+            line = line " The " adjective[idx[i]] " recipes have their own index in the " \
+                   (idx[i] == "de" ? "[main README](" indexlink(idx[i]) ")" : "[`Receipts/" idx[i] "`](" indexlink(idx[i]) ") folder") "."
+        print line
+        print ""
+        print "## Recipes by preparation time"
+        print ""
+        print "Recipes are grouped by their **total time** – including baking, cooking, resting, soaking and infusing. A salad that has to sit overnight therefore counts as \"Long\", even if the actual work only takes 15 minutes."
+        print ""
+        print "| Category | Total time | Count |"
     } else {
-        print "Unsere Rezeptsammlung. Alle Rezepte liegen unter [`Receipts/de`](Receipts/de)."
+        print "<!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->"
+        print ""
+        print "# Receipts"
+        print ""
+        if (nlang > 1) {
+            print "Unsere Rezeptsammlung. Die Rezepte gibt es in mehreren Sprachen:"
+            print ""
+            for (i = 1; i <= nlang; i++)
+                print "- " (lang[i] in langname ? langname[lang[i]] : lang[i]) ": [`Receipts/" lang[i] "`](" receipts_prefix lang[i] ")"
+            print ""
+            line = "Die Übersicht unten verlinkt die deutschen Rezepte."
+            for (i = 1; i <= nindexed; i++) if (idx[i] != ui)
+                line = line " Die " adjective[idx[i]] " Rezepte haben eine eigene Übersicht im Ordner [`Receipts/" idx[i] "`](" indexlink(idx[i]) ")."
+            print line
+        } else {
+            print "Unsere Rezeptsammlung. Alle Rezepte liegen unter [`Receipts/de`](Receipts/de)."
+        }
+        print ""
+        print "## Rezepte nach Zubereitungsdauer"
+        print ""
+        print "Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, Einweich- und Ziehzeiten. Ein Salat, der über Nacht durchziehen muss, landet deshalb bei „Lang\", auch wenn die eigentliche Arbeit nur 15 Minuten dauert."
+        print ""
+        print "| Kategorie | Gesamtzeit | Anzahl |"
     }
-    print ""
-    print "## Rezepte nach Zubereitungsdauer"
-    print ""
-    print "Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, Einweich- und Ziehzeiten. Ein Salat, der über Nacht durchziehen muss, landet deshalb bei „Lang\", auch wenn die eigentliche Arbeit nur 15 Minuten dauert."
-    print ""
-    print "| Kategorie | Gesamtzeit | Anzahl |"
     print "|---|---|---|"
     for (c = 1; c <= ncat; c++)
         print "| [" catname[c] "](#" tolower(catname[c]) ") | " catdesc[c] " | " cnt[c] " |"
-    if (cnt[4]) print "| [Ohne Zeitangabe](#ohne-zeitangabe) | – | " cnt[4] " |"
+    if (cnt[4]) print "| [" nodur "](#" nodur_anchor ") | – | " cnt[4] " |"
     print ""
     for (c = 1; c <= ncat; c++) {
         if (c > 1) print ""
@@ -248,30 +330,36 @@ END {
     }
     if (cnt[4]) {
         print ""
-        print "### Ohne Zeitangabe"
+        print "### " nodur
         print ""
-        print "Diese Rezepte haben noch keinen Abschnitt `## Dauer`."
+        print (ui == "en") ? "These recipes don't have a `" HEADING "` section yet." : "Diese Rezepte haben noch keinen Abschnitt `" HEADING "`."
         print ""
         print table(4, 0)
     }
     print ""
     print "---"
     print ""
-    print "Die Liste wird bei jedem Push auf `main` automatisch aktualisiert. Die Zeiten stammen aus dem Abschnitt `## Dauer` des jeweiligen Rezepts."
+    if (ui == "en")
+        print "This list is updated automatically on every push to `main`. The times come from the `" HEADING "` section of each recipe."
+    else
+        print "Die Liste wird bei jedem Push auf `main` automatisch aktualisiert. Die Zeiten stammen aus dem Abschnitt `" HEADING "` des jeweiligen Rezepts."
 
-    print "README.md written: " cnt[1] " quick, " cnt[2] " medium, " cnt[3] " long, " cnt[4] " without duration" | "cat 1>&2"
+    print outname " written: " cnt[1] " quick, " cnt[2] " medium, " cnt[3] " long, " cnt[4] " without duration" | "cat 1>&2"
 }
 AWK
 
-# Every subfolder of Receipts/ is one language, e.g. "de" and "en".
-languages() {
-    local d
-    for d in "$ROOT/Receipts"/*/; do
-        [ -d "$d" ] || continue
-        d="${d%/}"
-        printf '%s ' "${d##*/}"
-    done
+# generate <language> <output file> <link prefix to recipes> <link prefix to Receipts/>
+generate() {
+    emit_recipes "$ROOT/Receipts/$1" | LC_ALL=C awk \
+        -v ui="$1" -v langs="$(languages)" -v indexed="$(indexed_languages)" \
+        -v recipe_prefix="$3" -v receipts_prefix="$4" -v outname="${2#"$ROOT"/}" \
+        "$AWK_PROGRAM" > "$2.tmp"
+    mv "$2.tmp" "$2"
 }
 
-emit_recipes | LC_ALL=C awk -v langs="$(languages)" "$AWK_PROGRAM" > "$README.tmp"
-mv "$README.tmp" "$README"
+for lang in $(indexed_languages); do
+    case "$lang" in
+        de) generate de "$ROOT/README.md" "Receipts/de/" "Receipts/" ;;
+        *)  generate "$lang" "$ROOT/Receipts/$lang/README.md" "" "../" ;;
+    esac
+done

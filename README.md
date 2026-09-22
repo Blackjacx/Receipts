@@ -7,7 +7,7 @@ Unsere Rezeptsammlung. Die Rezepte gibt es in mehreren Sprachen:
 - Deutsch: [`Receipts/de`](Receipts/de)
 - Englisch: [`Receipts/en`](Receipts/en)
 
-Die Übersicht unten verlinkt die deutschen Rezepte.
+Die Übersicht unten verlinkt die deutschen Rezepte. Die englischen Rezepte haben eine eigene Übersicht im Ordner [`Receipts/en`](Receipts/en).
 
 ## Rezepte nach Zubereitungsdauer
 
