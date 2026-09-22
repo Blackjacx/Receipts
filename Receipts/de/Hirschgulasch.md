@@ -37,5 +37,6 @@ Zum Schluss Mehl mit Rama Creme Fine gut vermischen und in das Gulasch zusammen 
 Die restlichen Preiselbeeren in eine kleine Servierschüssel geben und mit etwas heißem Wasser verrühren. Die Preiselbeeren werden dadurch schön sämig und können als Beilage zum Gulasch serviert werden.
 
 ## Dauer
+24–48 Std. Einlegen<br />
 30 min. Zubereitung<br />
 2 h 30 min. Kochzeit

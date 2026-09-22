@@ -19,4 +19,4 @@ Die Pellkartoffeln einen Tag vorher kochen, schälen, hobeln oder in kleine Wür
 
 ## Dauer
 ca. 30 Min. Zubereitung<br />
-Kartoffeln am Vortag kochen
+1 Tag vorher Kartoffeln kochen

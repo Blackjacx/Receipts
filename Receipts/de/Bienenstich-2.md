@@ -1,4 +1,4 @@
-# Bienenstich
+# Bienenstich mit Füllung
 
 
 ## Zutaten für den Teig
