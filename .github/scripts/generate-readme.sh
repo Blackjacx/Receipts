@@ -47,6 +47,10 @@ BEGIN {
     catname[2] = "Mittel";  catdesc[2] = "bis 1 Std.";   catlimit[2] = 60
     catname[3] = "Lang";    catdesc[3] = "über 1 Std.";  catlimit[3] = -1
 
+    langname["de"] = "Deutsch"; langname["en"] = "Englisch"
+    langname["fr"] = "Französisch"; langname["es"] = "Spanisch"; langname["it"] = "Italienisch"
+    nlang = split(langs, lang, " ")
+
     n = 0
 }
 
@@ -215,7 +219,16 @@ END {
     print ""
     print "# Receipts"
     print ""
-    print "Unsere Rezeptsammlung. Alle Rezepte liegen unter [`Receipts/de`](Receipts/de)."
+    if (nlang > 1) {
+        print "Unsere Rezeptsammlung. Die Rezepte gibt es in mehreren Sprachen:"
+        print ""
+        for (i = 1; i <= nlang; i++)
+            print "- " (lang[i] in langname ? langname[lang[i]] : lang[i]) ": [`Receipts/" lang[i] "`](Receipts/" lang[i] ")"
+        print ""
+        print "Die Übersicht unten verlinkt die deutschen Rezepte."
+    } else {
+        print "Unsere Rezeptsammlung. Alle Rezepte liegen unter [`Receipts/de`](Receipts/de)."
+    }
     print ""
     print "## Rezepte nach Zubereitungsdauer"
     print ""
@@ -250,5 +263,15 @@ END {
 }
 AWK
 
-emit_recipes | LC_ALL=C awk "$AWK_PROGRAM" > "$README.tmp"
+# Every subfolder of Receipts/ is one language, e.g. "de" and "en".
+languages() {
+    local d
+    for d in "$ROOT/Receipts"/*/; do
+        [ -d "$d" ] || continue
+        d="${d%/}"
+        printf '%s ' "${d##*/}"
+    done
+}
+
+emit_recipes | LC_ALL=C awk -v langs="$(languages)" "$AWK_PROGRAM" > "$README.tmp"
 mv "$README.tmp" "$README"
