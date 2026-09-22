@@ -1,3 +1,5 @@
+<!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->
+
 # Receipts
 
 Unsere Rezeptsammlung. Alle Rezepte liegen unter [`Receipts/de`](Receipts/de).
@@ -29,13 +31,13 @@ Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, 
 | [Linsen-Feta-Salat](Receipts/de/Linsen-Feta-Salat.md) | 15 Min. |
 | [Sambal Matah](Receipts/de/Sambal-Matah.md) | 15 Min. |
 | [Türkische Pasta (Yalanche Mante)](Receipts/de/T%C3%BCrkische-Pasta.md) | 15 Min. |
-| [Maultaschen Chinese Style](Receipts/de/Maultaschen-Chinese.md) | 20 Min. |
+| [Maultaschen Chinese Style (Sichuan Chili Oil)](Receipts/de/Maultaschen-Chinese.md) | 20 Min. |
 | [Carbonara Original](Receipts/de/Carbonara-Original.md) | 30 Min. |
 | [Guacamole](Receipts/de/Guacamole.md) | 30 Min. |
 | [Hähnchen-Sandwich](Receipts/de/H%C3%A4hnchen-Sandwich.md) | 30 Min. |
 | [Ramen](Receipts/de/Ramen.md) | 30 Min. |
-| [Tortellini-Salat](Receipts/de/Tortellini-Salat.md) | 30 Min. |
-| [Waffelteig](Receipts/de/Waffelteig.md) | 30 Min. |
+| [Tortellini-Salat](Receipts/de/Tortellini-Salat.md) | 30 Min. Zubereitungszeit |
+| [Waffelteig](Receipts/de/Waffelteig.md) | 30 Min. Zubereitungszeit |
 
 ### Mittel
 
@@ -48,7 +50,7 @@ Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, 
 | [Soljanka](Receipts/de/Soljanka.md) | ca. 40 Min. |
 | [Frischkäserolle](Receipts/de/Frischk%C3%A4serolle.md) | 45 Min. |
 | [Gemüsepasta](Receipts/de/Gem%C3%BCsepasta.md) | 45 Min. |
-| [Karotten-Curry-Suppe](Receipts/de/Karotten-Curry-Suppe.md) | 45 Min. |
+| [Karotten-Curry-Suppe](Receipts/de/Karotten-Curry-Suppe.md) | 45 Min. Zubereitungszeit |
 | [Kartoffelbällchen](Receipts/de/Kartoffelb%C3%A4llchen.md) | ca. 45 Min. |
 | [Kartoffelsalat](Receipts/de/Kartoffelsalat.md) | ca. 45 Min. |
 | [Kürbissuppe](Receipts/de/K%C3%BCrbissuppe.md) | 45 Min. |
@@ -57,10 +59,10 @@ Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, 
 | [Ramen Mongolian Beef](Receipts/de/Ramen-Mongolian-Beef.md) | 45 Min. |
 | [Nudel-Gemüse-Auflauf](Receipts/de/Nudel-Gem%C3%BCse-Auflauf.md) | 50 Min. |
 | [Apfelkuchen](Receipts/de/Apfelkuchen.md) | 1 Std. |
-| [Bienenstich (Rührteig)](Receipts/de/Bienenstich.md) | 1 Std. |
+| [Bienenstich](Receipts/de/Bienenstich.md) | 1 Std. |
 | [Kartoffelsuppe](Receipts/de/Kartoffelsuppe.md) | 1 Std. |
 | [Lauch-Pilzpfanne](Receipts/de/Lauch-Pilzpfanne.md) | 1 Std. |
-| [Porree-Auflauf](Receipts/de/Porree-Auflauf.md) | 1 Std. |
+| [Porree-Auflauf](Receipts/de/Porree-Auflauf.md) | 60 Min. |
 | [Rehmedaillons](Receipts/de/Rehmedaillons.md) | 1 Std. |
 | [Sandwich mit Tomaten und Burrata](Receipts/de/Sandwich-Tomato-Burrata.md) | 1 Std. |
 | [Sesam-Ofenkartoffeln mit Koriander-Minze-Quark](Receipts/de/Sesam-Ofenkartoffeln%20mit%20Koriander-Minze-Quark.md) | 1 Std. |
@@ -71,23 +73,27 @@ Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, 
 
 | Rezept | Dauer |
 |---|---|
-| [Käsekuchen](Receipts/de/K%C3%A4sekuchen.md) | 1 Std. 15 Min. |
+| [Käsekuchen](Receipts/de/K%C3%A4sekuchen.md) | Arbeitszeit ca. 30 Min. + Koch-/Backzeit ca. 45 Min. |
 | [Pasta mit karamellisierten Zwiebeln](Receipts/de/Pasta-Caramelized-Onion.md) | 1 Std. 15 Min. |
 | [Rührkuchen (Kastenform)](Receipts/de/R%C3%BChrkuchen.md) | ca. 1 Std. 20 Min. |
 | [Hühnersuppe](Receipts/de/H%C3%BChnersuppe.md) | 1 Std. 25 Min. |
 | [Gewürzkuchen](Receipts/de/Gew%C3%BCrzkuchen.md) | 1 Std. 30 Min. |
-| [Lasagne Bolognese](Receipts/de/Lasagne.md) | 1 Std. 30 Min. |
+| [Lasagne Bolognese](Receipts/de/Lasagne.md) | Arbeitszeit: 30 Min. + Kochzeit: 1 Std. |
 | [Pizza (-teig)](Receipts/de/Pizza-Teig.md) | 1 Std. 30 Min. bis 1 Tag |
-| [Bienenstich (Hefeteig mit Füllung)](Receipts/de/Bienenstich-2.md) | 1 Std. 45 Min. |
+| [Bienenstich mit Füllung](Receipts/de/Bienenstich-2.md) | ca. 1 Std. 45 Min. |
 | [Gemüsebrühe](Receipts/de/Gem%C3%BCsebr%C3%BChe.md) | 2 Std. |
 | [Beef Butter](Receipts/de/Beef-Butter.md) | 4 Std. |
-| [Bolognesesauce mit Tagliatelle](Receipts/de/Bolognese-mit-Tagliatelle.md) | ca. 4 Std. |
-| [Tiramisu](Receipts/de/Tiramisu.md) | 15 Min. + 8 Std. Kühlzeit |
-| [Ingwer-Limette-Minze-Eistee](Receipts/de/Eistee-Limette-Ingwer.md) | 30 Min. + 1 Nacht Abkühlzeit |
-| [Linsensuppe](Receipts/de/Linsensuppe.md) | 1 Std. + 1 Nacht Einweichzeit |
-| [Croquetas de Jamón](Receipts/de/Croquetas-de-jamon.md) | 45 Min. + ½ Tag Ruhezeit |
-| [Kartoffelsalat nach Omas Art](Receipts/de/Kartoffelsalat-Omas-Art.md) | ca. 30 Min. + 1 Tag |
-| [Kichererbsensalat](Receipts/de/Kichererbsensalat.md) | 15 Min. + 24 Std. Einweichzeit |
-| [Schüttelgurken](Receipts/de/Sch%C3%BCttelgurken.md) | 15 Min. + 24 Std. Ziehzeit |
-| [Hirschgulasch](Receipts/de/Hirschgulasch.md) | 3 Std. + 24–48 Std. Einlegen |
+| [Bolognesesauce mit Tagliatelle (4 Personen)](Receipts/de/Bolognese-mit-Tagliatelle.md) | ca. 4 Std. |
+| [Tiramisu](Receipts/de/Tiramisu.md) | 15 Min. Zubereitungszeit + 8 Std. Wartezeit |
+| [Ingwer-Limette-Minze-Eistee](Receipts/de/Eistee-Limette-Ingwer.md) | 30 Min. Zubereitung + 1 Nacht Abkühlzeit |
+| [Linsensuppe](Receipts/de/Linsensuppe.md) | 1 Nacht Vorbereitungszeit + 1 Std. Zubereitungszeit |
+| [Croquetas de Jamón (Spanische Kroketten / Tapa)](Receipts/de/Croquetas-de-jamon.md) | Arbeitszeit: 45 Min. + Ruhezeit: ½ Tag |
+| [Kichererbsensalat](Receipts/de/Kichererbsensalat.md) | Arbeitszeit 15 Min. + Vorbereitungszeit 24 Std. |
+| [Schüttelgurken](Receipts/de/Sch%C3%BCttelgurken.md) | 15 Min. Zubereitung + 24 Std. Ziehzeit |
+| [Kartoffelsalat nach Omas Art](Receipts/de/Kartoffelsalat-Omas-Art.md) | ca. 30 Min. Zubereitung + 1 Tag vorher Kartoffeln kochen |
+| [Hirschgulasch](Receipts/de/Hirschgulasch.md) | 24–48 Std. Einlegen + 30 Min. Zubereitung + 2 Std. 30 Min. Kochzeit |
 | [Sauerteigbrot](Receipts/de/Brot-Sauerteig.md) | 5 Tage Sauerteig + ca. 1 Tag Brot |
+
+---
+
+Die Liste wird bei jedem Push auf `main` automatisch aktualisiert. Die Zeiten stammen aus dem Abschnitt `## Dauer` des jeweiligen Rezepts.
