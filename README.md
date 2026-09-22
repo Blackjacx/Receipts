@@ -2,7 +2,12 @@
 
 # Receipts
 
-Unsere Rezeptsammlung. Alle Rezepte liegen unter [`Receipts/de`](Receipts/de).
+Unsere Rezeptsammlung. Die Rezepte gibt es in mehreren Sprachen:
+
+- Deutsch: [`Receipts/de`](Receipts/de)
+- Englisch: [`Receipts/en`](Receipts/en)
+
+Die Übersicht unten verlinkt die deutschen Rezepte.
 
 ## Rezepte nach Zubereitungsdauer
 
