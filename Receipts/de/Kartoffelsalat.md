@@ -18,3 +18,6 @@
 
 ## Zubereitung
 Kartoffeln als Pellkartoffeln garen, etwas abkühlen lassen und pellen. Äpfel waschen, Kerngehäuse entfernen und in Stückchen schneiden. Gurken, Paprika, Schinken und Kartoffeln in Stückchen schneiden. Schalotten in Ringe schneiden. Alles zusammen mit Kresse, Kräutern, Essig, Öl und Senf mixen, abschmecken und eine kurze Weile durchziehen lassen.
+
+## Dauer
+ca. 45 Min.

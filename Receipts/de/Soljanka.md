@@ -15,3 +15,6 @@
 
 ## Zubereitung
 Zwiebel- und Paprikawürfel in der Margarine dünsten. Dann die ebenfalls in Würfel geschnittene Wurst dazugeben und anbraten, nicht braun werden lassen. Das Glas Letscho und die gewürfelten Tomaten zufügen. Eventuell das Ganze noch mit Tomatensaft auffüllen. Mit Salz, Pfeffer, Paprikapulver edelsüß und Paprikapulver scharf würzen.
+
+## Dauer
+ca. 40 Min.

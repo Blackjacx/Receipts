@@ -19,5 +19,8 @@ Kartoffeln schälen, klein schneiden und kochen. Abgießen und stampfen. Mit Kä
 
 Dazu eine Chili-Mayo reichen.
 
+## Dauer
+ca. 45 Min.
+
 ## Links
 https://github.com/user-attachments/assets/5a859c59-73f8-4e4b-8456-caa04f0ced62
