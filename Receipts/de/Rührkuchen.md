@@ -16,3 +16,6 @@
 
 ## Zubereitung
 Die weiche Butter mit Zucker und Vanillezucker schaumig rühren. Dann nacheinander die Eier zugeben und gut verrühren. Das mit dem Backpulver vermischte Mehl und alle anderen Zutaten hinzugeben und den Teig schön cremig rühren. Dann in die gefettete Backform füllen und bei 180 Grad ca. 1 Stunde backen. Stäbchenprobe - wenn nix kleben bleibt, ist der Kuchen fertig.
+
+## Dauer
+ca. 1 Std. 20 Min.

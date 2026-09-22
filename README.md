@@ -45,12 +45,12 @@ Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, 
 | [Kokosmakronen](Receipts/de/Makronen-Kokos.md) | 40 Min. |
 | [Käse-Lauch-Suppe](Receipts/de/K%C3%A4se-Lauch-Suppe.md) | 40 Min. |
 | [Nudel-Hackfleisch-Gemüse-Pfanne](Receipts/de/Nudel-Hackfleisch-Gem%C3%BCse-Pfanne.md) | 40 Min. |
-| [Soljanka](Receipts/de/Soljanka.md) | ca. 40 Min. \* |
+| [Soljanka](Receipts/de/Soljanka.md) | ca. 40 Min. |
 | [Frischkäserolle](Receipts/de/Frischk%C3%A4serolle.md) | 45 Min. |
 | [Gemüsepasta](Receipts/de/Gem%C3%BCsepasta.md) | 45 Min. |
 | [Karotten-Curry-Suppe](Receipts/de/Karotten-Curry-Suppe.md) | 45 Min. |
-| [Kartoffelbällchen](Receipts/de/Kartoffelb%C3%A4llchen.md) | ca. 45 Min. \* |
-| [Kartoffelsalat](Receipts/de/Kartoffelsalat.md) | ca. 45 Min. \* |
+| [Kartoffelbällchen](Receipts/de/Kartoffelb%C3%A4llchen.md) | ca. 45 Min. |
+| [Kartoffelsalat](Receipts/de/Kartoffelsalat.md) | ca. 45 Min. |
 | [Kürbissuppe](Receipts/de/K%C3%BCrbissuppe.md) | 45 Min. |
 | [Nudel-Schinken-Gratin](Receipts/de/Nudel-Schinken-Gratin.md) | 45 Min. |
 | [Porreeauflauf mit Salami und Käse überbacken](Receipts/de/Porree-Auflauf-Ueberbacken.md) | 45 Min. |
@@ -73,7 +73,7 @@ Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, 
 |---|---|
 | [Käsekuchen](Receipts/de/K%C3%A4sekuchen.md) | 1 Std. 15 Min. |
 | [Pasta mit karamellisierten Zwiebeln](Receipts/de/Pasta-Caramelized-Onion.md) | 1 Std. 15 Min. |
-| [Rührkuchen (Kastenform)](Receipts/de/R%C3%BChrkuchen.md) | ca. 1 Std. 20 Min. \* |
+| [Rührkuchen (Kastenform)](Receipts/de/R%C3%BChrkuchen.md) | ca. 1 Std. 20 Min. |
 | [Hühnersuppe](Receipts/de/H%C3%BChnersuppe.md) | 1 Std. 25 Min. |
 | [Gewürzkuchen](Receipts/de/Gew%C3%BCrzkuchen.md) | 1 Std. 30 Min. |
 | [Lasagne Bolognese](Receipts/de/Lasagne.md) | 1 Std. 30 Min. |
@@ -81,15 +81,13 @@ Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, 
 | [Bienenstich (Hefeteig mit Füllung)](Receipts/de/Bienenstich-2.md) | 1 Std. 45 Min. |
 | [Gemüsebrühe](Receipts/de/Gem%C3%BCsebr%C3%BChe.md) | 2 Std. |
 | [Beef Butter](Receipts/de/Beef-Butter.md) | 4 Std. |
-| [Bolognesesauce mit Tagliatelle](Receipts/de/Bolognese-mit-Tagliatelle.md) | ca. 4 Std. \* |
+| [Bolognesesauce mit Tagliatelle](Receipts/de/Bolognese-mit-Tagliatelle.md) | ca. 4 Std. |
 | [Tiramisu](Receipts/de/Tiramisu.md) | 15 Min. + 8 Std. Kühlzeit |
 | [Ingwer-Limette-Minze-Eistee](Receipts/de/Eistee-Limette-Ingwer.md) | 30 Min. + 1 Nacht Abkühlzeit |
 | [Linsensuppe](Receipts/de/Linsensuppe.md) | 1 Std. + 1 Nacht Einweichzeit |
 | [Croquetas de Jamón](Receipts/de/Croquetas-de-jamon.md) | 45 Min. + ½ Tag Ruhezeit |
-| [Kartoffelsalat nach Omas Art](Receipts/de/Kartoffelsalat-Omas-Art.md) | ca. 30 Min. + 1 Tag \* |
+| [Kartoffelsalat nach Omas Art](Receipts/de/Kartoffelsalat-Omas-Art.md) | ca. 30 Min. + 1 Tag |
 | [Kichererbsensalat](Receipts/de/Kichererbsensalat.md) | 15 Min. + 24 Std. Einweichzeit |
-| [Schüttelgurken](Receipts/de/Sch%C3%BCttelgurken.md) | 15 Min. + 24 Std. Ziehzeit \* |
+| [Schüttelgurken](Receipts/de/Sch%C3%BCttelgurken.md) | 15 Min. + 24 Std. Ziehzeit |
 | [Hirschgulasch](Receipts/de/Hirschgulasch.md) | 3 Std. + 24–48 Std. Einlegen |
 | [Sauerteigbrot](Receipts/de/Brot-Sauerteig.md) | 5 Tage Sauerteig + ca. 1 Tag Brot |
-
-\* Die Zeit steht nicht im Rezept selbst, sondern ist aus der Zubereitung abgeleitet.
