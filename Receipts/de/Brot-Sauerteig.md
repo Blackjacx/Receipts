@@ -56,3 +56,7 @@ Backzeit: 45 Min.
 Vorbereitungs-/Ruhezeit: 20h
 Backzeit: 45 Min.
 
+## Dauer
+
+5 Tage Sauerteig<br />
+ca. 1 Tag Brot
