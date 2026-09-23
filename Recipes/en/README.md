@@ -2,7 +2,7 @@
 
 # Recipes
 
-All English recipes, grouped by preparation time. Also available in: [German](../de/README.md). Back to the [home page](../../README.md).
+All English recipes, grouped by preparation time. Also available in: [German](../de/README.md) · [French](../fr/README.md). Back to the [home page](../../README.md).
 
 ## Recipes by preparation time
 
