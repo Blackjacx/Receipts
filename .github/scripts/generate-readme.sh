@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 #
-# Generates the recipe indexes from the recipes in Receipts/<language>.
+# Generates the recipe indexes from the recipes in Recipes/<language>.
 #
 # Recipes are grouped by the total time given in their duration section
 # ("## Dauer" in German, "## Duration" in English) into three categories:
 # quick, medium and long. Each language gets its own index, written in that
 # language, next to its recipes:
 #
-#   Receipts/de  ->  Receipts/de/README.md (German)
-#   Receipts/en  ->  Receipts/en/README.md (English)
+#   Recipes/de  ->  Recipes/de/README.md (German)
+#   Recipes/en  ->  Recipes/en/README.md (English)
 #
 # The main README.md is a short German landing page that links to the index
 # of every language.
@@ -27,10 +27,10 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 # Languages that have index labels in the awk program below.
 SUPPORTED="de en"
 
-# Every subfolder of Receipts/ is one language, e.g. "de" and "en".
+# Every subfolder of Recipes/ is one language, e.g. "de" and "en".
 languages() {
     local d
-    for d in "$ROOT/Receipts"/*/; do
+    for d in "$ROOT/Recipes"/*/; do
         [ -d "$d" ] || continue
         d="${d%/}"
         printf '%s ' "${d##*/}"
@@ -333,10 +333,10 @@ END {
 }
 AWK
 
-# generate_index <language>: writes Receipts/<language>/README.md
+# generate_index <language>: writes Recipes/<language>/README.md
 generate_index() {
-    local out="$ROOT/Receipts/$1/README.md"
-    emit_recipes "$ROOT/Receipts/$1" | LC_ALL=C awk \
+    local out="$ROOT/Recipes/$1/README.md"
+    emit_recipes "$ROOT/Recipes/$1" | LC_ALL=C awk \
         -v ui="$1" -v langs="$(languages)" -v indexed="$(indexed_languages)" \
         -v outname="${out#"$ROOT"/}" \
         "$AWK_PROGRAM" > "$out.tmp"
@@ -358,14 +358,14 @@ generate_landing_page() {
     {
         echo "<!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->"
         echo ""
-        echo "# Receipts"
+        echo "# Recipes"
         echo ""
         echo "Unsere Rezeptsammlung. Jede Sprache hat eine eigene Übersicht, in der die Rezepte nach Zubereitungsdauer eingeteilt sind:"
         echo ""
         for lang in $(languages); do
-            target="Receipts/$lang"
+            target="Recipes/$lang"
             case " $(indexed_languages) " in *" $lang "*) target="$target/README.md" ;; esac
-            echo "- $(language_name "$lang"): [\`Receipts/$lang\`]($target)"
+            echo "- $(language_name "$lang"): [\`Recipes/$lang\`]($target)"
         done
     } > "$out.tmp"
     mv "$out.tmp" "$out"
