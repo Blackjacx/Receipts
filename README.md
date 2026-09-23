@@ -6,3 +6,4 @@ Unsere Rezeptsammlung. Jede Sprache hat eine eigene Übersicht, in der die Rezep
 
 - Deutsch: [`Recipes/de`](Recipes/de/README.md)
 - Englisch: [`Recipes/en`](Recipes/en/README.md)
+- Französisch: [`Recipes/fr`](Recipes/fr/README.md)

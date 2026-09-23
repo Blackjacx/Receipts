@@ -3,12 +3,13 @@
 # Generates the recipe indexes from the recipes in Recipes/<language>.
 #
 # Recipes are grouped by the total time given in their duration section
-# ("## Dauer" in German, "## Duration" in English) into three categories:
-# quick, medium and long. Each language gets its own index, written in that
-# language, next to its recipes:
+# ("## Dauer" in German, "## Duration" in English, "## Durée" in French)
+# into three categories: quick, medium and long. Each language gets its own
+# index, written in that language, next to its recipes:
 #
 #   Recipes/de  ->  Recipes/de/README.md (German)
 #   Recipes/en  ->  Recipes/en/README.md (English)
+#   Recipes/fr  ->  Recipes/fr/README.md (French)
 #
 # The main README.md is a short German landing page that links to the index
 # of every language.
@@ -25,9 +26,9 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 
 # Languages that have index labels in the awk program below.
-SUPPORTED="de en"
+SUPPORTED="de en fr"
 
-# Every subfolder of Recipes/ is one language, e.g. "de" and "en".
+# Every subfolder of Recipes/ is one language, e.g. "de", "en" and "fr".
 languages() {
     local d
     for d in "$ROOT/Recipes"/*/; do
@@ -64,7 +65,7 @@ BEGIN {
     for (i = 1; i < 256; i++) ord[sprintf("%c", i)] = i
 
     NUM  = "([0-9]+/[0-9]+|½|[0-9]+([.,][0-9]+)?)"
-    UNIT = "(minuten|minute|minutes|mins|min\\.?|stunden|stunde|std\\.?|hours|hour|hrs|hr|h|tage|tag|days|day|nächte|nacht|nights|night|wochen|woche|weeks|week)"
+    UNIT = "(minuten|minute|minutes|mins|min\\.?|stunden|stunde|std\\.?|hours|hour|hrs|hr|heures|heure|h|tage|tag|days|day|jours|jour|nächte|nacht|nights|night|nuits|nuit|wochen|woche|weeks|week|semaines|semaine)"
     TOKEN = NUM "([ \t]*(-|–)[ \t]*" NUM ")?[ \t]*" UNIT
 
     unitmin["min"] = 1; unitmin["std"] = 60; unitmin["tag"] = 1440
@@ -85,6 +86,40 @@ BEGIN {
         unitlabel["woche"] = "week"; unitplural["woche"] = "weeks"
         langname["de"] = "German"; langname["en"] = "English"
         langname["fr"] = "French"; langname["es"] = "Spanish"; langname["it"] = "Italian"
+        GENERATED = "<!-- This file is generated automatically by .github/scripts/generate-readme.sh. Manual changes will be overwritten on the next push. -->"
+        TITLE = "# Recipes"
+        INTRO = "All English recipes, grouped by preparation time."
+        ALSO = " Also available in: "
+        BACK = " Back to the [home page](../../README.md)."
+        SECTION = "## Recipes by preparation time"
+        EXPLAIN = "Recipes are grouped by their **total time** – including baking, cooking, resting, soaking and infusing. A salad that has to sit overnight therefore counts as \"Long\", even if the actual work only takes 15 minutes."
+        OVERVIEW = "| Category | Total time | Count |"
+        COLRECIPE = "Recipe"; COLDURATION = "Duration"
+        NODURTEXT = "These recipes don't have a `" HEADING "` section yet."
+        FOOTER = "This list is updated automatically on every push to `main`. The times come from the `" HEADING "` section of each recipe."
+    } else if (ui == "fr") {
+        HEADING = "## Durée"; AND = "et"; RANGE = "à"
+        catname[1] = "Rapide"; catdesc[1] = "jusqu'à 30 min"
+        catname[2] = "Moyen";  catdesc[2] = "jusqu'à 1 h"
+        catname[3] = "Long";   catdesc[3] = "plus d'1 h"
+        nodur = "Sans durée"; nodur_anchor = "sans-durée"
+        unitlabel["min"] = "min"; unitlabel["std"] = "h"
+        unitlabel["tag"] = "jour"; unitplural["tag"] = "jours"
+        unitlabel["nacht"] = "nuit"; unitplural["nacht"] = "nuits"
+        unitlabel["woche"] = "semaine"; unitplural["woche"] = "semaines"
+        langname["de"] = "allemand"; langname["en"] = "anglais"
+        langname["fr"] = "français"; langname["es"] = "espagnol"; langname["it"] = "italien"
+        GENERATED = "<!-- Ce fichier est généré automatiquement par .github/scripts/generate-readme.sh. Les modifications manuelles seront écrasées au prochain push. -->"
+        TITLE = "# Recettes"
+        INTRO = "Toutes les recettes en français, classées par durée de préparation."
+        ALSO = " Aussi disponible en : "
+        BACK = " Retour à la [page d'accueil](../../README.md)."
+        SECTION = "## Recettes par durée de préparation"
+        EXPLAIN = "Le classement se fait selon la **durée totale**, cuisson, repos, trempage et infusion compris. Une salade qui doit reposer toute une nuit est donc classée « Long », même si la préparation proprement dite ne prend que 15 minutes."
+        OVERVIEW = "| Catégorie | Durée totale | Nombre |"
+        COLRECIPE = "Recette"; COLDURATION = "Durée"
+        NODURTEXT = "Ces recettes n'ont pas encore de section `" HEADING "`."
+        FOOTER = "Cette liste est mise à jour automatiquement à chaque push sur `main`. Les durées proviennent de la section `" HEADING "` de chaque recette."
     } else {
         HEADING = "## Dauer"; AND = "und"; RANGE = "bis"
         catname[1] = "Schnell"; catdesc[1] = "bis 30 Min."
@@ -97,6 +132,17 @@ BEGIN {
         unitlabel["woche"] = "Woche"; unitplural["woche"] = "Wochen"
         langname["de"] = "Deutsch"; langname["en"] = "Englisch"
         langname["fr"] = "Französisch"; langname["es"] = "Spanisch"; langname["it"] = "Italienisch"
+        GENERATED = "<!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->"
+        TITLE = "# Rezepte"
+        INTRO = "Alle deutschen Rezepte, eingeteilt nach Zubereitungsdauer."
+        ALSO = " Auch verfügbar auf: "
+        BACK = " Zurück zur [Startseite](../../README.md)."
+        SECTION = "## Rezepte nach Zubereitungsdauer"
+        EXPLAIN = "Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, Einweich- und Ziehzeiten. Ein Salat, der über Nacht durchziehen muss, landet deshalb bei „Lang\", auch wenn die eigentliche Arbeit nur 15 Minuten dauert."
+        OVERVIEW = "| Kategorie | Gesamtzeit | Anzahl |"
+        COLRECIPE = "Rezept"; COLDURATION = "Dauer"
+        NODURTEXT = "Diese Rezepte haben noch keinen Abschnitt `" HEADING "`."
+        FOOTER = "Die Liste wird bei jedem Push auf `main` automatisch aktualisiert. Die Zeiten stammen aus dem Abschnitt `" HEADING "` des jeweiligen Rezepts."
     }
     unitplural["min"] = unitlabel["min"]; unitplural["std"] = unitlabel["std"]
 
@@ -121,9 +167,9 @@ function urlencode(s,    i, c, out) {
 function unitkey(u) {
     sub(/\.$/, "", u)
     if (u ~ /^min/) return "min"
-    if (u == "h" || u ~ /^(std|stunde|hour|hr)/) return "std"
-    if (u ~ /^(tag|day)/) return "tag"
-    if (u ~ /^(nacht|nächte|night)/) return "nacht"
+    if (u == "h" || u ~ /^(std|stunde|hour|hr|heure)/) return "std"
+    if (u ~ /^(tag|day|jour)/) return "tag"
+    if (u ~ /^(nacht|nächte|night|nuit)/) return "nacht"
     return "woche"
 }
 
@@ -235,9 +281,8 @@ function row(i, withtime,    link) {
     return withtime ? "| " link " | " rshown[i] " |" : "| " link " |"
 }
 
-function table(c, withtime,    out, k, head) {
-    head = (ui == "en") ? "Recipe" : "Rezept"
-    out = withtime ? "| " head " | " ((ui == "en") ? "Duration" : "Dauer") " |\n|---|---|" : "| " head " |\n|---|"
+function table(c, withtime,    out, k) {
+    out = withtime ? "| " COLRECIPE " | " COLDURATION " |\n|---|---|" : "| " COLRECIPE " |\n|---|"
     for (k = 1; k <= cnt[c]; k++) out = out "\n" row(member[c, k], withtime)
     return out
 }
@@ -273,35 +318,17 @@ END {
     for (i = 1; i <= nlang; i++) if (lang[i] != ui)
         others = others (others == "" ? "" : " · ") "[" (lang[i] in langname ? langname[lang[i]] : lang[i]) "](" indexlink(lang[i]) ")"
 
-    if (ui == "en") {
-        print "<!-- This file is generated automatically by .github/scripts/generate-readme.sh. Manual changes will be overwritten on the next push. -->"
-        print ""
-        print "# Recipes"
-        print ""
-        print "All English recipes, grouped by preparation time." \
-              (others != "" ? " Also available in: " others "." : "") \
-              " Back to the [home page](../../README.md)."
-        print ""
-        print "## Recipes by preparation time"
-        print ""
-        print "Recipes are grouped by their **total time** – including baking, cooking, resting, soaking and infusing. A salad that has to sit overnight therefore counts as \"Long\", even if the actual work only takes 15 minutes."
-        print ""
-        print "| Category | Total time | Count |"
-    } else {
-        print "<!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->"
-        print ""
-        print "# Rezepte"
-        print ""
-        print "Alle deutschen Rezepte, eingeteilt nach Zubereitungsdauer." \
-              (others != "" ? " Auch verfügbar auf: " others "." : "") \
-              " Zurück zur [Startseite](../../README.md)."
-        print ""
-        print "## Rezepte nach Zubereitungsdauer"
-        print ""
-        print "Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, Einweich- und Ziehzeiten. Ein Salat, der über Nacht durchziehen muss, landet deshalb bei „Lang\", auch wenn die eigentliche Arbeit nur 15 Minuten dauert."
-        print ""
-        print "| Kategorie | Gesamtzeit | Anzahl |"
-    }
+    print GENERATED
+    print ""
+    print TITLE
+    print ""
+    print INTRO (others != "" ? ALSO others "." : "") BACK
+    print ""
+    print SECTION
+    print ""
+    print EXPLAIN
+    print ""
+    print OVERVIEW
     print "|---|---|---|"
     for (c = 1; c <= ncat; c++)
         print "| [" catname[c] "](#" tolower(catname[c]) ") | " catdesc[c] " | " cnt[c] " |"
@@ -317,17 +344,14 @@ END {
         print ""
         print "### " nodur
         print ""
-        print (ui == "en") ? "These recipes don't have a `" HEADING "` section yet." : "Diese Rezepte haben noch keinen Abschnitt `" HEADING "`."
+        print NODURTEXT
         print ""
         print table(4, 0)
     }
     print ""
     print "---"
     print ""
-    if (ui == "en")
-        print "This list is updated automatically on every push to `main`. The times come from the `" HEADING "` section of each recipe."
-    else
-        print "Die Liste wird bei jedem Push auf `main` automatisch aktualisiert. Die Zeiten stammen aus dem Abschnitt `" HEADING "` des jeweiligen Rezepts."
+    print FOOTER
 
     print outname " written: " cnt[1] " quick, " cnt[2] " medium, " cnt[3] " long, " cnt[4] " without duration" | "cat 1>&2"
 }
