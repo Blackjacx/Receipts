@@ -4,11 +4,14 @@
 #
 # Recipes are grouped by the total time given in their duration section
 # ("## Dauer" in German, "## Duration" in English) into three categories:
-# quick, medium and long. Each index is written in the language of its
-# recipes:
+# quick, medium and long. Each language gets its own index, written in that
+# language, next to its recipes:
 #
-#   Receipts/de  ->  README.md             (German, the main README)
+#   Receipts/de  ->  Receipts/de/README.md (German)
 #   Receipts/en  ->  Receipts/en/README.md (English)
+#
+# The main README.md is a short German landing page that links to the index
+# of every language.
 #
 # Runs automatically via .github/workflows/readme.yml on every push to
 # main, and can also be run locally:
@@ -82,7 +85,6 @@ BEGIN {
         unitlabel["woche"] = "week"; unitplural["woche"] = "weeks"
         langname["de"] = "German"; langname["en"] = "English"
         langname["fr"] = "French"; langname["es"] = "Spanish"; langname["it"] = "Italian"
-        adjective["de"] = "German"; adjective["en"] = "English"
     } else {
         HEADING = "## Dauer"; AND = "und"; RANGE = "bis"
         catname[1] = "Schnell"; catdesc[1] = "bis 30 Min."
@@ -95,7 +97,6 @@ BEGIN {
         unitlabel["woche"] = "Woche"; unitplural["woche"] = "Wochen"
         langname["de"] = "Deutsch"; langname["en"] = "Englisch"
         langname["fr"] = "Französisch"; langname["es"] = "Spanisch"; langname["it"] = "Italienisch"
-        adjective["de"] = "deutschen"; adjective["en"] = "englischen"
     }
     unitplural["min"] = unitlabel["min"]; unitplural["std"] = unitlabel["std"]
 
@@ -230,7 +231,7 @@ function before(a, b) {
 }
 
 function row(i, withtime,    link) {
-    link = "[" rtitle[i] "](" recipe_prefix urlencode(rfile[i]) ")"
+    link = "[" rtitle[i] "](" urlencode(rfile[i]) ")"
     return withtime ? "| " link " | " rshown[i] " |" : "| " link " |"
 }
 
@@ -241,10 +242,9 @@ function table(c, withtime,    out, k, head) {
     return out
 }
 
-# Link from this index to the index of language l.
+# Link from this index to the index (or, without one, the folder) of language l.
 function indexlink(l) {
-    if (l == "de") return (ui == "de") ? "" : receipts_prefix "../README.md"
-    return receipts_prefix l
+    return "../" l (l in isindexed ? "/README.md" : "")
 }
 
 END {
@@ -268,24 +268,19 @@ END {
         member[c, k] = i
     }
 
+    # Links to the other languages and back to the landing page
     others = ""
-    for (i = 1; i <= nindexed; i++) if (idx[i] != ui) others = others " " idx[i]
+    for (i = 1; i <= nlang; i++) if (lang[i] != ui)
+        others = others (others == "" ? "" : " · ") "[" (lang[i] in langname ? langname[lang[i]] : lang[i]) "](" indexlink(lang[i]) ")"
 
     if (ui == "en") {
         print "<!-- This file is generated automatically by .github/scripts/generate-readme.sh. Manual changes will be overwritten on the next push. -->"
         print ""
-        print "# Receipts"
+        print "# Recipes"
         print ""
-        print "Our recipe collection. The recipes are available in several languages:"
-        print ""
-        for (i = 1; i <= nlang; i++)
-            print "- " (lang[i] in langname ? langname[lang[i]] : lang[i]) ": [`Receipts/" lang[i] "`](" receipts_prefix lang[i] ")"
-        print ""
-        line = "The index below links the English recipes."
-        for (i = 1; i <= nindexed; i++) if (idx[i] != ui)
-            line = line " The " adjective[idx[i]] " recipes have their own index in the " \
-                   (idx[i] == "de" ? "[main README](" indexlink(idx[i]) ")" : "[`Receipts/" idx[i] "`](" indexlink(idx[i]) ") folder") "."
-        print line
+        print "All English recipes, grouped by preparation time." \
+              (others != "" ? " Also available in: " others "." : "") \
+              " Back to the [home page](../../README.md)."
         print ""
         print "## Recipes by preparation time"
         print ""
@@ -295,21 +290,11 @@ END {
     } else {
         print "<!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->"
         print ""
-        print "# Receipts"
+        print "# Rezepte"
         print ""
-        if (nlang > 1) {
-            print "Unsere Rezeptsammlung. Die Rezepte gibt es in mehreren Sprachen:"
-            print ""
-            for (i = 1; i <= nlang; i++)
-                print "- " (lang[i] in langname ? langname[lang[i]] : lang[i]) ": [`Receipts/" lang[i] "`](" receipts_prefix lang[i] ")"
-            print ""
-            line = "Die Übersicht unten verlinkt die deutschen Rezepte."
-            for (i = 1; i <= nindexed; i++) if (idx[i] != ui)
-                line = line " Die " adjective[idx[i]] " Rezepte haben eine eigene Übersicht im Ordner [`Receipts/" idx[i] "`](" indexlink(idx[i]) ")."
-            print line
-        } else {
-            print "Unsere Rezeptsammlung. Alle Rezepte liegen unter [`Receipts/de`](Receipts/de)."
-        }
+        print "Alle deutschen Rezepte, eingeteilt nach Zubereitungsdauer." \
+              (others != "" ? " Auch verfügbar auf: " others "." : "") \
+              " Zurück zur [Startseite](../../README.md)."
         print ""
         print "## Rezepte nach Zubereitungsdauer"
         print ""
@@ -348,18 +333,46 @@ END {
 }
 AWK
 
-# generate <language> <output file> <link prefix to recipes> <link prefix to Receipts/>
-generate() {
+# generate_index <language>: writes Receipts/<language>/README.md
+generate_index() {
+    local out="$ROOT/Receipts/$1/README.md"
     emit_recipes "$ROOT/Receipts/$1" | LC_ALL=C awk \
         -v ui="$1" -v langs="$(languages)" -v indexed="$(indexed_languages)" \
-        -v recipe_prefix="$3" -v receipts_prefix="$4" -v outname="${2#"$ROOT"/}" \
-        "$AWK_PROGRAM" > "$2.tmp"
-    mv "$2.tmp" "$2"
+        -v outname="${out#"$ROOT"/}" \
+        "$AWK_PROGRAM" > "$out.tmp"
+    mv "$out.tmp" "$out"
+}
+
+# German display name of a language code, for the landing page.
+language_name() {
+    case "$1" in
+        de) echo "Deutsch" ;; en) echo "Englisch" ;; fr) echo "Französisch" ;;
+        es) echo "Spanisch" ;; it) echo "Italienisch" ;; *) echo "$1" ;;
+    esac
+}
+
+# generate_landing_page: writes the German main README.md that links to the
+# index of every language (or to the folder of a language without index).
+generate_landing_page() {
+    local lang target out="$ROOT/README.md"
+    {
+        echo "<!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->"
+        echo ""
+        echo "# Receipts"
+        echo ""
+        echo "Unsere Rezeptsammlung. Jede Sprache hat eine eigene Übersicht, in der die Rezepte nach Zubereitungsdauer eingeteilt sind:"
+        echo ""
+        for lang in $(languages); do
+            target="Receipts/$lang"
+            case " $(indexed_languages) " in *" $lang "*) target="$target/README.md" ;; esac
+            echo "- $(language_name "$lang"): [\`Receipts/$lang\`]($target)"
+        done
+    } > "$out.tmp"
+    mv "$out.tmp" "$out"
+    echo "README.md written: landing page for $(languages | wc -w | tr -d ' ') language(s)" >&2
 }
 
 for lang in $(indexed_languages); do
-    case "$lang" in
-        de) generate de "$ROOT/README.md" "Receipts/de/" "Receipts/" ;;
-        *)  generate "$lang" "$ROOT/Receipts/$lang/README.md" "" "../" ;;
-    esac
+    generate_index "$lang"
 done
+generate_landing_page

@@ -1,13 +1,8 @@
 <!-- This file is generated automatically by .github/scripts/generate-readme.sh. Manual changes will be overwritten on the next push. -->
 
-# Receipts
+# Recipes
 
-Our recipe collection. The recipes are available in several languages:
-
-- German: [`Receipts/de`](../de)
-- English: [`Receipts/en`](../en)
-
-The index below links the English recipes. The German recipes have their own index in the [main README](../../README.md).
+All English recipes, grouped by preparation time. Also available in: [German](../de/README.md). Back to the [home page](../../README.md).
 
 ## Recipes by preparation time
 
