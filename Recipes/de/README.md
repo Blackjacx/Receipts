@@ -1,5 +1,7 @@
 <!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->
 
+<h3 align="right"><a href="../de/README.md" title="Deutsch">🇩🇪</a>&emsp;<a href="../en/README.md" title="Englisch">🇬🇧</a>&emsp;<a href="../fr/README.md" title="Französisch">🇫🇷</a></h3>
+
 # Rezepte
 
 Alle deutschen Rezepte, eingeteilt nach Zubereitungsdauer. Auch verfügbar auf: [Englisch](../en/README.md) · [Französisch](../fr/README.md). Zurück zur [Startseite](../../README.md).
