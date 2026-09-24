@@ -11,7 +11,7 @@ Recipes are grouped by their **total time** – including baking, cooking, resti
 | Category | Total time | Count |
 |---|---|---|
 | [Quick](#quick) | up to 30 min | 20 |
-| [Medium](#medium) | up to 1 h | 25 |
+| [Medium](#medium) | up to 1 h | 26 |
 | [Long](#long) | over 1 h | 20 |
 
 ### Quick
@@ -43,6 +43,7 @@ Recipes are grouped by their **total time** – including baking, cooking, resti
 
 | Recipe | Duration |
 |---|---|
+| [Spicy Bean Skillet à la Bud Spencer & Terence Hill](Bohnenpfanne-Scharf.md) | approx. 35 min |
 | [Cheese and Leek Soup](K%C3%A4se-Lauch-Suppe.md) | 40 min |
 | [Coconut Macaroons](Makronen-Kokos.md) | 40 min |
 | [Minced Meat Tray Bake](Hackfleischpfanne.md) | 40 min |

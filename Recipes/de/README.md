@@ -11,7 +11,7 @@ Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, 
 | Kategorie | Gesamtzeit | Anzahl |
 |---|---|---|
 | [Schnell](#schnell) | bis 30 Min. | 20 |
-| [Mittel](#mittel) | bis 1 Std. | 25 |
+| [Mittel](#mittel) | bis 1 Std. | 26 |
 | [Lang](#lang) | über 1 Std. | 20 |
 
 ### Schnell
@@ -43,6 +43,7 @@ Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, 
 
 | Rezept | Dauer |
 |---|---|
+| [Scharfe Bohnenpfanne à la Bud Spencer & Terence Hill](Bohnenpfanne-Scharf.md) | ca. 35 Min. |
 | [Hackfleischpfanne](Hackfleischpfanne.md) | 40 Min. |
 | [Kokosmakronen](Makronen-Kokos.md) | 40 Min. |
 | [Käse-Lauch-Suppe](K%C3%A4se-Lauch-Suppe.md) | 40 Min. |
