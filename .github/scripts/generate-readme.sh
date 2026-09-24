@@ -91,7 +91,6 @@ BEGIN {
         GENERATED = "<!-- This file is generated automatically by .github/scripts/generate-readme.sh. Manual changes will be overwritten on the next push. -->"
         TITLE = "# Recipes"
         INTRO = "All English recipes, grouped by preparation time."
-        ALSO = " Also available in: "
         BACK = " Back to the [home page](../../README.md)."
         SECTION = "## Recipes by preparation time"
         EXPLAIN = "Recipes are grouped by their **total time** – including baking, cooking, resting, soaking and infusing. A salad that has to sit overnight therefore counts as \"Long\", even if the actual work only takes 15 minutes."
@@ -114,7 +113,6 @@ BEGIN {
         GENERATED = "<!-- Ce fichier est généré automatiquement par .github/scripts/generate-readme.sh. Les modifications manuelles seront écrasées au prochain push. -->"
         TITLE = "# Recettes"
         INTRO = "Toutes les recettes en français, classées par durée de préparation."
-        ALSO = " Aussi disponible en : "
         BACK = " Retour à la [page d'accueil](../../README.md)."
         SECTION = "## Recettes par durée de préparation"
         EXPLAIN = "Le classement se fait selon la **durée totale**, cuisson, repos, trempage et infusion compris. Une salade qui doit reposer toute une nuit est donc classée « Long », même si la préparation proprement dite ne prend que 15 minutes."
@@ -137,7 +135,6 @@ BEGIN {
         GENERATED = "<!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->"
         TITLE = "# Rezepte"
         INTRO = "Alle deutschen Rezepte, eingeteilt nach Zubereitungsdauer."
-        ALSO = " Auch verfügbar auf: "
         BACK = " Zurück zur [Startseite](../../README.md)."
         SECTION = "## Rezepte nach Zubereitungsdauer"
         EXPLAIN = "Eingeteilt wird nach der **Gesamtzeit** – also inklusive Back-, Koch-, Ruhe-, Einweich- und Ziehzeiten. Ein Salat, der über Nacht durchziehen muss, landet deshalb bei „Lang\", auch wenn die eigentliche Arbeit nur 15 Minuten dauert."
@@ -322,18 +319,13 @@ END {
                 (lang[i] in langname ? langname[lang[i]] : lang[i]) "\">" \
                 (lang[i] in flag ? flag[lang[i]] : lang[i]) "</a>"
 
-    # Links to the other languages and back to the landing page
-    others = ""
-    for (i = 1; i <= nlang; i++) if (lang[i] != ui)
-        others = others (others == "" ? "" : " · ") "[" (lang[i] in langname ? langname[lang[i]] : lang[i]) "](" indexlink(lang[i]) ")"
-
     print GENERATED
     print ""
     print "<h3 align=\"right\">" flags "</h3>"
     print ""
     print TITLE
     print ""
-    print INTRO (others != "" ? ALSO others "." : "") BACK
+    print INTRO BACK
     print ""
     print SECTION
     print ""
