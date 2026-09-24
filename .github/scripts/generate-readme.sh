@@ -71,6 +71,8 @@ BEGIN {
     unitmin["min"] = 1; unitmin["std"] = 60; unitmin["tag"] = 1440
     unitmin["nacht"] = 600; unitmin["woche"] = 10080
 
+    flag["de"] = "🇩🇪"; flag["en"] = "🇬🇧"; flag["fr"] = "🇫🇷"; flag["es"] = "🇪🇸"; flag["it"] = "🇮🇹"
+
     ncat = 3
     catlimit[1] = 30; catlimit[2] = 60; catlimit[3] = -1
 
@@ -313,12 +315,21 @@ END {
         member[c, k] = i
     }
 
+    # Flag bar with a link to every language index, shown top right
+    flags = ""
+    for (i = 1; i <= nlang; i++)
+        flags = flags (flags == "" ? "" : "&emsp;") "<a href=\"" indexlink(lang[i]) "\" title=\"" \
+                (lang[i] in langname ? langname[lang[i]] : lang[i]) "\">" \
+                (lang[i] in flag ? flag[lang[i]] : lang[i]) "</a>"
+
     # Links to the other languages and back to the landing page
     others = ""
     for (i = 1; i <= nlang; i++) if (lang[i] != ui)
         others = others (others == "" ? "" : " · ") "[" (lang[i] in langname ? langname[lang[i]] : lang[i]) "](" indexlink(lang[i]) ")"
 
     print GENERATED
+    print ""
+    print "<h3 align=\"right\">" flags "</h3>"
     print ""
     print TITLE
     print ""
@@ -367,6 +378,14 @@ generate_index() {
     mv "$out.tmp" "$out"
 }
 
+# Flag emoji of a language code, for the flag bar on the landing page.
+language_flag() {
+    case "$1" in
+        de) echo "🇩🇪" ;; en) echo "🇬🇧" ;; fr) echo "🇫🇷" ;;
+        es) echo "🇪🇸" ;; it) echo "🇮🇹" ;; *) echo "$1" ;;
+    esac
+}
+
 # German display name of a language code, for the landing page.
 language_name() {
     case "$1" in
@@ -375,21 +394,34 @@ language_name() {
     esac
 }
 
+# Link target of a language on the landing page: its index, or its folder
+# if it has none.
+landing_target() {
+    case " $(indexed_languages) " in
+        *" $1 "*) echo "Recipes/$1/README.md" ;;
+        *) echo "Recipes/$1" ;;
+    esac
+}
+
 # generate_landing_page: writes the German main README.md that links to the
 # index of every language (or to the folder of a language without index).
 generate_landing_page() {
-    local lang target out="$ROOT/README.md"
+    local lang flags="" out="$ROOT/README.md"
+    for lang in $(languages); do
+        [ -n "$flags" ] && flags="$flags&emsp;"
+        flags="$flags<a href=\"$(landing_target "$lang")\" title=\"$(language_name "$lang")\">$(language_flag "$lang")</a>"
+    done
     {
         echo "<!-- Diese Datei wird automatisch von .github/scripts/generate-readme.sh erzeugt. Änderungen von Hand werden beim nächsten Push überschrieben. -->"
+        echo ""
+        echo "<h3 align=\"right\">$flags</h3>"
         echo ""
         echo "# Recipes"
         echo ""
         echo "Unsere Rezeptsammlung. Jede Sprache hat eine eigene Übersicht, in der die Rezepte nach Zubereitungsdauer eingeteilt sind:"
         echo ""
         for lang in $(languages); do
-            target="Recipes/$lang"
-            case " $(indexed_languages) " in *" $lang "*) target="$target/README.md" ;; esac
-            echo "- $(language_name "$lang"): [\`Recipes/$lang\`]($target)"
+            echo "- $(language_name "$lang"): [\`Recipes/$lang\`]($(landing_target "$lang"))"
         done
     } > "$out.tmp"
     mv "$out.tmp" "$out"
