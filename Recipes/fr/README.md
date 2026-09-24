@@ -11,7 +11,7 @@ Le classement se fait selon la **durée totale**, cuisson, repos, trempage et in
 | Catégorie | Durée totale | Nombre |
 |---|---|---|
 | [Rapide](#rapide) | jusqu'à 30 min | 20 |
-| [Moyen](#moyen) | jusqu'à 1 h | 25 |
+| [Moyen](#moyen) | jusqu'à 1 h | 26 |
 | [Long](#long) | plus d'1 h | 20 |
 
 ### Rapide
@@ -43,6 +43,7 @@ Le classement se fait selon la **durée totale**, cuisson, repos, trempage et in
 
 | Recette | Durée |
 |---|---|
+| [Poêlée de haricots épicée à la Bud Spencer & Terence Hill](Bohnenpfanne-Scharf.md) | env. 35 min |
 | [Poêlée de pâtes, viande hachée et légumes](Nudel-Hackfleisch-Gem%C3%BCse-Pfanne.md) | 40 min |
 | [Rochers à la noix de coco](Makronen-Kokos.md) | 40 min |
 | [Soljanka](Soljanka.md) | env. 40 min |
