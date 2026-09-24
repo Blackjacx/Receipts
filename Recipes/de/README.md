@@ -4,7 +4,7 @@
 
 # Rezepte
 
-Alle deutschen Rezepte, eingeteilt nach Zubereitungsdauer. Auch verfügbar auf: [Englisch](../en/README.md) · [Französisch](../fr/README.md). Zurück zur [Startseite](../../README.md).
+Alle deutschen Rezepte, eingeteilt nach Zubereitungsdauer. Zurück zur [Startseite](../../README.md).
 
 ## Rezepte nach Zubereitungsdauer
 

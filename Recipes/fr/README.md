@@ -4,7 +4,7 @@
 
 # Recettes
 
-Toutes les recettes en français, classées par durée de préparation. Aussi disponible en : [allemand](../de/README.md) · [anglais](../en/README.md). Retour à la [page d'accueil](../../README.md).
+Toutes les recettes en français, classées par durée de préparation. Retour à la [page d'accueil](../../README.md).
 
 ## Recettes par durée de préparation
 
